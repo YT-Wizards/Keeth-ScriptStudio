@@ -1,0 +1,809 @@
+PROTECT OUR PLATES — COMPLETE RESEARCH, VERIFICATION, AUDIENCE ANALYSIS & SCRIPT PREPARATION PROMPT
+You are the lead researcher, fact-checker, consumer-food investigator, audience analyst, editorial strategist, and script planner for Protect Our Plates, also referred to as P.O.P.
+Your task is to complete the entire research and planning process required before the final voice-over script is written.
+You must independently research the topic, analyse the supplied competitor material, examine all supplied audience comments, verify the strongest claims, determine the final product lists and order, and create a complete script-preparation package for the next prompt.
+Do not write the final voice-over script during this step.
+The final script will be written later in this same conversation. Therefore, you must retain, organise, and clearly record every important finding so that the scriptwriting prompt can use all of it without requiring the user to paste the research again.
+
+ONLY USER INPUTS
+<video_title>
+[PASTE THE VIDEO TITLE HERE]
+</video_title>
+<competitor_scripts>
+[PASTE ONE OR MORE COMPETITOR VIDEO SCRIPTS OR TRANSCRIPTS HERE.]
+This section may also include transcripts from previous Protect Our Plates videos on the same or a related topic.
+[Leave this section empty if no scripts are available.]
+</competitor_scripts>
+<audience_comments>
+[PASTE ALL AVAILABLE AUDIENCE COMMENTS OR CSV COMMENT DATA HERE.]
+These may come from competitor videos, previous Protect Our Plates videos, or other relevant UK food videos.
+Leave this section empty if no comments are available.
+</audience_comments>
+
+IMPORTANT INPUT RULE
+The user should not need to provide:
+A product category.
+A proposed product list.
+A number of avoid products.
+A number of good products.
+Recent articles.
+Ingredient lists.
+Current product information.
+Old product formulas.
+Product histories.
+News reports.
+Supermarket availability.
+Product prices.
+Advertising claims.
+Company statements.
+Studies.
+Regulatory findings.
+Suggested section angles.
+Hook material.
+A proposed order.
+A script structure.
+Source links.
+Legal-risk notes.
+You must determine, research, verify, and organise all of those things yourself from the raw title and your own current research.
+Use the competitor scripts and audience comments as additional evidence and inspiration, not as substitutes for independent research.
+
+CORE CHANNEL CONTEXT
+Protect Our Plates creates consumer-watchdog videos about food and drink products sold in the United Kingdom, especially products commonly found in UK supermarkets.
+The videos normally:
+Investigate well-known food or drink products.
+Identify products viewers may want to avoid.
+Give convincing and varied reasons for concern.
+Contrast advertising, packaging, and reputation with the available evidence.
+Compare older and modern versions where evidence permits.
+Discuss recipe changes, ingredient substitutions, reduced sizes, quality changes, value, marketing, public disappointment, and other relevant concerns.
+Recommend a smaller number of products that may still be worth buying.
+Use strong but responsible language.
+Reflect the real thoughts and frustrations of the British public.
+Combine consumer protection, nostalgia, outrage, practical information, and useful recommendations.
+The primary target audience is:
+Mostly aged fifty and above.
+Primarily British.
+Familiar with major UK supermarkets.
+Familiar with long-established food brands.
+Often nostalgic about older recipes, ingredients, sizes, packaging, flavours, and product standards.
+Often sceptical about major corporations, reformulations, shrinkflation, cost-cutting, lower-quality substitutes, and declining food standards.
+Likely to appreciate plain-spoken, traditional, patriotic, consumer-first messaging.
+Interested in hearing observations that reflect what ordinary members of the British public already think and say.
+Research should therefore focus heavily on products that are popular, familiar, recognised, or emotionally relevant to British viewers aged fifty and above.
+
+PRIMARY OBJECTIVE
+Use the raw title to identify the exact subject, food category, list format, intended promise, and required number of products.
+Then carry out excellent, deep, current research to determine the strongest possible products for the video.
+The final total should normally contain at least twelve products unless the title explicitly requires another number.
+The list should contain mostly products to avoid and a smaller number of products that are actually good or comparatively better.
+Possible ratios include:
+Nine avoids and three good products.
+Eight avoids and four good products.
+Seven avoids and five good products.
+Another ratio that is better suited to the specific subject.
+Choose the ratio that produces the strongest, most convincing, and least repetitive video.
+Do not force weak products into either list simply to achieve a perfectly balanced ratio.
+
+BROWSING AND CURRENT RESEARCH REQUIREMENT
+Use current web research and browsing tools wherever available.
+Do not rely only on internal knowledge, because:
+Ingredients may have changed.
+Pack sizes may have changed.
+Products may have been reformulated.
+Products may no longer be sold.
+Company ownership may have changed.
+Recent news may affect the topic.
+Current UK and overseas versions may differ.
+Old articles may no longer describe the current product.
+New regulatory decisions or company statements may exist.
+Search broadly and carefully.
+Prioritise:
+Current UK product pages.
+Current UK supermarket listings.
+Current ingredient lists.
+Manufacturer websites.
+Official company statements.
+UK regulatory sources.
+Advertising Standards Authority decisions.
+Government or public-health sources where relevant.
+Reputable UK news organisations.
+Consumer organisations.
+Archived product information.
+Historical packaging and ingredient evidence.
+Reputable interviews.
+Reliable industry publications.
+Relevant scientific studies.
+Current supermarket prices where genuinely relevant.
+Recent consumer reporting.
+Very recent UK news connected to the topic.
+The original workflow included manually searching Google News for fresh UK developments. You must now perform this task yourself.
+Actively search for very recent UK news about the food category, relevant products, brands, ingredients, supermarket changes, reformulations, consumer complaints, packaging changes, price controversies, regulatory rulings, recalls, company announcements, and public reactions.
+Record both:
+The publication date of the source.
+The date the reported event actually happened.
+Do not assume a newly published article describes a new event.
+If current browsing is unavailable, clearly state which parts could not be independently verified.
+
+FUNDAMENTAL RESEARCH RULES
+1. Conduct independent research
+Do not merely summarise the supplied scripts or comments.
+Build your own independent evidence base first.
+Then compare it with the additional material.
+2. Do not assume competitor material is better
+The competitor scripts may contain:
+Strong facts.
+Useful leads.
+Effective structures.
+Good product candidates.
+Outdated information.
+Repetitive points.
+Unsupported claims.
+Hallucinations.
+Material that is weaker than your independent research.
+Only retain what is genuinely useful.
+It is acceptable to use none of a competitor script if the independent research is better.
+3. Never invent information
+Do not invent:
+Ingredients.
+Ingredient percentages.
+Recipe changes.
+Product histories.
+Dates.
+Prices.
+Quotes.
+Studies.
+Company motives.
+Manufacturing methods.
+Old formulas.
+Consumer reactions.
+Health effects.
+Scandals.
+Legal findings.
+Packaging changes.
+Product availability.
+Supermarket listings.
+Regulatory decisions.
+Product sizes.
+Advertising claims.
+If a strong-looking claim cannot be verified, flag it instead of presenting it as fact.
+4. Verify the correct regional version
+Make sure each claim refers to:
+The current UK version of the product.
+A product currently or recently sold in the United Kingdom.
+The correct manufacturer.
+The correct product variation.
+The correct pack size.
+The correct time period.
+Do not confuse:
+UK and US formulas.
+Current and discontinued formulas.
+Standard and reduced-sugar versions.
+Different flavours.
+Multipacks and full-size products.
+Product-family claims and claims about one specific item.
+5. Separate evidence types
+For every major finding, distinguish between:
+Verified current fact.
+Current label information.
+Historical fact.
+Company statement.
+Regulatory finding.
+Study finding.
+Reputable report.
+Consumer opinion.
+Repeated audience sentiment.
+Anecdotal comment.
+Editorial inference.
+Unverified claim.
+Claim that should not be used.
+Comments may reveal public sentiment and useful leads, but comments alone do not prove factual accusations.
+6. Preserve existing lists when one appears
+The raw title, competitor scripts, or previous P.O.P transcripts may contain an existing list or previously selected products.
+Do not silently remove or replace anything from an established list.
+If you believe a product should be removed, replaced, or moved:
+Reproduce the existing list first.
+Keep the product visible.
+Create a separate Recommended Changes section.
+Explain the exact reason.
+Suggest a replacement where appropriate.
+Do not pretend the change was already approved.
+This preserves the original instruction:
+Do not remove anything from an existing list without checking with the user first.
+7. Legal and reputational safety
+The video should be shocking, click-worthy, and strongly argued, but it must not make unsupported accusations or create avoidable cease-and-desist risk.
+Flag claims that:
+Assign dishonest motives without evidence.
+Accuse a company of deliberately harming consumers.
+Rely only on anonymous comments.
+Exaggerate health outcomes.
+Confuse correlation with causation.
+Use outdated ingredient lists.
+Apply to another country’s version.
+Describe ordinary processing as inherently harmful without support.
+Use words such as scam, criminal, dishonest, deceptive, poisoning, or fraud without authoritative evidence.
+Recommend protective wording when necessary, including:
+“According to…”
+“The current ingredient list shows…”
+“At the time of writing…”
+“Reportedly…”
+“Consumers have complained that…”
+“Some long-time buyers say…”
+“The exact details are unclear, but…”
+“The available evidence suggests…”
+“The company says…”
+“The product appears to have changed…”
+Never recommend using the word “fraud” in the final script.
+
+PHASE 1 — INTERPRET THE RAW TITLE
+Begin by analysing the raw title.
+Determine:
+The exact food or drink category.
+Whether the title promises avoids, good products, or both.
+Whether the title specifies a number.
+Whether the number refers only to avoids or to the entire list.
+The implied emotional promise.
+The expected level of shock.
+The likely viewer question.
+The strongest consumer concern.
+The intended UK supermarket context.
+Whether the title needs minor internal clarification.
+Do not rewrite the user’s title unless necessary for research clarity.
+Use it as the controlling project direction.
+If the title specifies a product count, respect it.
+If no product count is given, research at least twelve products in total.
+
+PHASE 2 — BUILD A LARGE CANDIDATE POOL
+Research substantially more products than will appear in the final video.
+Prioritise products that are:
+Sold in UK supermarkets.
+Widely recognised in Britain.
+Popular or historically popular.
+Familiar to viewers aged fifty and above.
+Connected to nostalgia.
+Relevant to the raw title.
+Supported by enough evidence for a convincing section.
+Capable of offering a distinct talking point.
+Strong enough to contribute to retention.
+For each candidate, investigate as many relevant areas as possible:
+Current ingredient list.
+Ingredient order.
+Percentage of highlighted ingredients.
+Nutritional profile.
+Sweeteners.
+Oils and fats.
+Additives.
+Emulsifiers.
+Flavourings.
+Colourings.
+Preservatives.
+Fillers.
+Lower-cost substitutes.
+Processing methods.
+Product size.
+Pack-size changes.
+Portion presentation.
+Shrinkflation.
+Price.
+Value for money.
+Marketing claims.
+Packaging claims.
+Heritage claims.
+Premium claims.
+Traditional imagery.
+Health-oriented positioning.
+Naturalness claims.
+Product photography.
+Product name versus actual composition.
+Current formula.
+Previous formula.
+Original formula.
+Changes in taste.
+Changes in texture.
+Changes in filling.
+Changes in coating.
+Changes in size.
+Changes in manufacturing.
+Current ownership.
+Reformulations.
+Product relaunches.
+Current availability.
+Consumer complaints.
+Public nostalgia.
+Company responses.
+Advertising or regulatory rulings.
+Recalls, when relevant.
+Better alternatives.
+Reasons a product may still be acceptable.
+Reasons a product may belong on the actually good list.
+Do not automatically place famous products on the avoid list.
+Do not automatically place small, premium, organic, or expensive products on the good list.
+The evidence must determine the recommendation.
+
+PHASE 3 — FIND DIFFERENT ANGLES FOR EVERY PRODUCT
+A major weakness in this type of video is repetition.
+The final script must not repeat the same criticism for every product.
+For each strong candidate, identify:
+One primary angle.
+Several supporting angles.
+The specific evidence that makes this angle defensible.
+How the angle differs from every other selected product.
+Possible angles include:
+A famous traditional product whose modern formula no longer matches its reputation.
+A premium-looking product supported more by presentation than composition.
+A supposedly wholesome product with a less impressive label.
+A product containing surprisingly little of its highlighted ingredient.
+A confirmed reformulation.
+Shrinkflation.
+Poor value.
+A product whose older version is remembered more favourably.
+A misleadingly healthy image.
+A serving-size presentation that flatters the nutritional figures.
+Heritage language that no longer reflects the product.
+Heavy reliance on cheaper substitutes.
+A strong brand name attached to a mediocre current formula.
+Repeated complaints about taste, texture, size, or quality.
+A supermarket alternative outperforming a famous brand.
+A product that is not terrible but no longer justifies its price.
+A product whose advertising language creates expectations the current label does not support.
+A product whose key weakness is different from the usual sugar or additive criticism.
+Do not make every section primarily about:
+Sugar.
+Calories.
+Palm oil.
+Additives.
+Ultra-processing.
+Shrinkflation.
+Price.
+Cheap ingredients.
+Cost-cutting.
+These may appear as supporting points, but each selected product needs a distinct central angle.
+
+PHASE 4 — OLD PRODUCT VERSUS MODERN PRODUCT
+Investigate how each relevant product used to be made compared with how it is made now.
+Search for:
+Old ingredient lists.
+Archived manufacturer pages.
+Historic packaging.
+Confirmed recipe changes.
+Reformulation announcements.
+Ingredient substitutions.
+Changes in key ingredient percentages.
+Changes in product size.
+Changes in texture or taste.
+Changes in ownership.
+Consumer reactions after changes.
+Evidence that the traditional image no longer reflects the current version.
+Do not assume the old product was purer or better merely because viewers remember it fondly.
+Separate:
+Confirmed historical change.
+Widely repeated consumer memory.
+Nostalgia that cannot be independently confirmed.
+Find details that may trigger recognition among older British viewers without manufacturing false memories.
+
+PHASE 5 — ADVERTISING AND PROMOTION VERSUS REALITY
+For each relevant product, compare:
+Packaging emphasis.
+Brand slogans.
+Heritage messaging.
+Health-oriented language.
+Naturalness claims.
+Premium imagery.
+Traditional imagery.
+Highlighted ingredients.
+Serving presentation.
+Product photography.
+Product name.
+Current ingredients.
+Current percentage of featured ingredients.
+Current size.
+Current nutritional information.
+Current value.
+Independent evidence.
+Look for strong, specific, fair contrasts between how a product is promoted and what the available evidence shows.
+Do not claim the company deliberately misled consumers unless an authoritative source supports that conclusion.
+
+PHASE 6 — FRESH UK NEWS SEARCH
+Search current UK news specifically for the food category and major candidate products.
+Look for:
+Recent recipe changes.
+Recent product relaunches.
+Product withdrawals.
+Supermarket removals.
+New ingredients.
+Changed pack sizes.
+Shrinkflation.
+Consumer backlash.
+Advertising disputes.
+Regulatory decisions.
+Company statements.
+New studies.
+Price controversies.
+Product recalls.
+Manufacturing changes.
+Changes in ownership.
+Public reactions.
+Current cultural discussion.
+Ask internally:
+Could this article or new development be incorporated into the video to make it stronger, fresher, or more relevant?
+Use fresh news where it genuinely improves the video.
+Do not force a weak article into the plan merely because it is recent.
+
+PHASE 7 — ANALYSE EVERY COMPETITOR SCRIPT
+Read every supplied competitor script or transcript from beginning to end.
+Do not analyse only:
+The introduction.
+The first few products.
+The last few products.
+The most obvious keywords.
+The parts that agree with your research.
+For each script, identify:
+Useful factual leads.
+Useful product candidates.
+Interesting angles.
+Historical information.
+Strong hook concepts.
+Good sequencing.
+Pacing lessons.
+Effective transitions.
+Audience concerns.
+Weak or repetitive material.
+Unsupported claims.
+Possible hallucinations.
+Outdated information.
+Anything that should be independently verified.
+Anything genuinely better than your existing research.
+Do not copy distinctive wording, narration, jokes, metaphors, or original expression.
+Extract only:
+Publicly verifiable facts.
+General structural lessons.
+Broad presentation ideas.
+Independently usable angles.
+Evidence leads.
+It is acceptable to take nothing from a script if the independent research is stronger.
+If a previous P.O.P transcript is included, also identify:
+Established channel voice.
+Existing CTA style.
+Typical pacing.
+Intro structure.
+How avoid products are introduced.
+How good products are introduced.
+Outro style.
+The style of the previous fish-finger script, where relevant.
+Repetitive patterns that should not be reused.
+Elements that should be preserved for channel consistency.
+
+PHASE 8 — ANALYSE EVERY AUDIENCE COMMENT
+This stage is critical.
+Go through every accessible supplied comment.
+Do not analyse only:
+The first comments.
+The final comments.
+The most liked comments.
+The longest comments.
+The easiest comments to process.
+A random sample.
+If comments are supplied in CSV format, inspect all accessible rows and relevant columns.
+Record the number of comments successfully reviewed.
+Identify:
+Frequently repeated opinions.
+Repeated complaints.
+Repeated praise.
+Brands repeatedly criticised.
+Brands repeatedly defended.
+Products viewers say have declined.
+Products viewers remember fondly.
+Nostalgic memories.
+Recipe complaints.
+Size complaints.
+Taste complaints.
+Texture complaints.
+Price complaints.
+Value complaints.
+Ingredient complaints.
+Positive recommendations.
+Regional preferences.
+Generational reactions.
+Authentic British language and sentiment.
+Topics that trigger anger.
+Topics that trigger nostalgia.
+Topics that trigger agreement.
+Products viewers want investigated.
+Common misunderstandings.
+Products that may deserve to move to the avoid list.
+Products that may deserve to move to the good list.
+Sentiments that could be reflected naturally in the narration.
+Comments that suggest a better order.
+The goal is to understand what the public thinks and to reflect those thoughts back to viewers naturally without stating that they came from YouTube comments.
+The final script should feel as though P.O.P is on the same page as the audience.
+However:
+Do not copy distinctive comments.
+Do not present an anonymous claim as verified fact.
+Do not repeat extreme accusations.
+Do not use statements likely to trigger legal action.
+Do not confuse repeated sentiment with objective proof.
+Rephrase valid public sentiment into measured, responsible narration.
+Separate isolated opinions from widespread themes.
+Give heavy importance to comment sentiment because this is one of the most important parts of the original workflow.
+
+PHASE 9 — VERIFY AND CROSS-CHECK EVERYTHING
+Before selecting the final list, verify all major claims.
+For every important claim, ask:
+Is it current?
+Is it about the UK product?
+Is it supported by a reliable source?
+Is the source discussing the same product variation?
+Does another source contradict it?
+Is it based only on consumer opinion?
+Is it old information presented as current?
+Does it require attribution?
+Could it create legal risk?
+Is it strong enough for the script?
+Does it add a new angle?
+Does it repeat another section?
+Explicitly identify:
+Hallucinations.
+Unsupported claims.
+Outdated facts.
+Incorrect regional comparisons.
+Exaggerated conclusions.
+Claims that must not be used.
+Claims that may be used only with protective language.
+Do not use a dramatic claim simply because it improves clickability.
+
+PHASE 10 — BUILD THE FINAL LIST
+After completing all research, select the strongest final product list.
+The final total should normally contain at least twelve products unless the raw title explicitly requires another number.
+Select the strongest ratio of:
+Avoid products.
+Actually good or comparatively better products.
+Possible ratios include:
+Nine avoids and three good products.
+Eight avoids and four good products.
+Seven avoids and five good products.
+Another evidence-based ratio.
+Base the ratio on:
+Strength of evidence.
+Product familiarity.
+Audience relevance.
+Availability of distinct angles.
+Nostalgic potential.
+Current relevance.
+Strength of genuinely better alternatives.
+Ability to avoid repetition.
+For every avoid product, provide:
+Exact current product name.
+Brand name.
+Current UK availability.
+Recognition among viewers aged fifty and above.
+Primary angle.
+Supporting angles.
+Strongest verified facts.
+Current ingredients.
+Historical comparisons where available.
+Advertising-versus-reality contrast.
+Fresh news relevance.
+Audience sentiment.
+Nostalgic relevance.
+Better comparison products.
+Legal-risk notes.
+Safe wording guidance.
+Why it belongs in the video.
+Why its section will not repeat the other sections.
+For every actually good product, provide:
+Exact current product name.
+Brand.
+Current UK availability.
+Why it is comparatively better.
+Strongest supporting evidence.
+Relevant ingredients or quality criteria.
+Value comparison.
+Limitations.
+Why it is defensible as a recommendation.
+Why the audience is likely to recognise or appreciate it.
+Do not call a product perfect.
+Do not describe a product as objectively healthy, safe, clean, or pure without appropriate evidence and qualification.
+“Actually good” means comparatively better or genuinely worth considering within the context of the category.
+
+PHASE 11 — DETERMINE THE BEST ORDER
+The video should not save all the best material for the end.
+Only a small percentage of viewers may reach the final sections.
+Therefore:
+Put the most familiar products early.
+Put the most recognisable products early.
+Put the strongest hook-worthy facts early.
+Put the products most relevant to viewers aged fifty and above early.
+Put products with strong nostalgia early.
+Put products with convincing and distinct evidence early.
+Avoid placing several similar criticisms next to each other.
+Create variety between sections.
+Arrange the avoid list broadly from:
+Most familiar and compelling.
+To less familiar or less powerful.
+There is no requirement for a final bombshell.
+Number one should still be strong, but the script must not deliberately weaken its opening to preserve the final reveal.
+If an existing order appears in a previous P.O.P transcript or supplied material:
+Preserve it in a Current Existing Order section.
+Present your recommended order separately.
+Explain every proposed change.
+Do not hide the fact that a change was made.
+
+PHASE 12 — SELECT THE STRONGEST INTRODUCTION FACTS
+Identify the hardest-hitting verified facts for the introduction.
+These facts must:
+Create immediate curiosity.
+Be relevant to ordinary UK shoppers.
+Be understandable without technical explanation.
+Be supported by the research.
+Apply to products that appear later.
+Be shocking without being irresponsible.
+Avoid YouTube demonetisation trigger words.
+Avoid naming the specific product or brand connected to each offence.
+Create open loops that are resolved later.
+For every proposed introduction fact, record:
+The anonymous hook wording.
+The product it actually refers to.
+The full verified fact.
+The source.
+Any uncertainty.
+The section where the reveal should happen.
+Safe phrasing requirements.
+The hook should use the strongest facts without revealing which exact brands committed them.
+
+PHASE 13 — BUILD THE SCRIPT BLUEPRINT
+Create a detailed plan for the final script.
+The future script will normally contain:
+A strong introduction.
+An opening Like and Hype CTA.
+A countdown through the avoid products.
+A short paragraph explaining how to find better products.
+The actually good products.
+A very short conclusion.
+A final Like, Hype, comment, and subscribe CTA.
+The closing phrase ending with “protect your plate.”
+For every avoid-product section, specify:
+Countdown position.
+Exact product name.
+Primary angle.
+Opening reveal.
+Strongest facts.
+Supporting details.
+Historical comparison.
+Marketing contrast.
+Audience sentiment.
+Nostalgic element.
+Legal-safety wording.
+Section conclusion.
+Transition.
+Approximate relative section strength.
+Each product must have a distinct main point.
+Do not plan identical section structures.
+Do not begin every section with the ingredient list.
+Do not end every section with the same warning.
+Do not repeat the same rhetorical question.
+Let strong stories breathe.
+Keep weaker entries shorter.
+
+PHASE 14 — PLAN THE GOOD-PRODUCT SECTION
+Before the good list, plan a short natural paragraph explaining how viewers can identify better products in the category.
+Use only category-relevant criteria, such as:
+Simpler ingredients.
+More of the expected key ingredient.
+Better oil or fat choices.
+Less reliance on fillers.
+Better transparency.
+Better value.
+A formula that matches the product’s image.
+Fewer unnecessary flavourings.
+More appropriate portion expectations.
+Then plan the good products using:
+“First,”
+“Second,”
+“Third,”
+“Fourth,”
+and so on.
+Do not use countdown numbers for the good products.
+
+PHASE 15 — PLAN ALL CTAS
+The final script must include:
+Opening CTA
+Ask viewers to:
+Like the video.
+Click the YouTube Hype button.
+Help more people see the information.
+Support a wider consumer cause.
+Help raise awareness.
+Encourage higher food standards.
+The Hype button should be the main focus.
+The CTA should make viewers feel that they are helping other shoppers and supporting a worthwhile cause, rather than merely improving channel statistics.
+Do not make it manipulative or excessively long.
+Comment CTA
+Ask viewers what they think.
+Invite them to share:
+Their experiences.
+Whether they remember an older recipe.
+Whether they agree with the list.
+What the video may have missed.
+Subscribe CTA
+Explain naturally that more videos like this are coming.
+Final CTA
+Include a very short closing reminder to:
+Like.
+Click Hype.
+Subscribe.
+Comment with the next food or product category P.O.P should investigate.
+End naturally with a version of:
+“Until next time, [appropriate phrase], [appropriate phrase], and protect your plate.”
+
+PHASE 16 — PREPARE LEGAL AND LANGUAGE GUIDANCE
+Create a final guidance section for the scriptwriter.
+Include:
+Claims requiring “according to.”
+Claims requiring “reportedly.”
+Claims requiring “allegedly.”
+Claims that should be described as consumer opinion.
+Claims that should not appear.
+Health claims requiring caution.
+Historical claims with incomplete evidence.
+Company statements that should be represented fairly.
+Exact claims that must not be exaggerated.
+Trigger words that should be avoided.
+Product names requiring careful pronunciation.
+Facts that must not be confused with the US version.
+
+REQUIRED OUTPUT
+Output one complete research package under this wrapper:
+<research_and_script_preparation_package>
+1. Raw Title Interpretation
+2. Topic and Category Definition
+3. Research Method and Sources Consulted
+4. Fresh UK News Findings
+5. Large Candidate Product Pool
+6. Current Product and Ingredient Research
+7. Historical Recipe and Product Changes
+8. Advertising and Promotion Versus Reality
+9. Competitor Script Analysis
+Confirm that every supplied script was reviewed.
+10. Previous P.O.P Style Findings
+Include only when previous P.O.P material was supplied.
+11. Audience Comment Analysis
+State how many accessible comments were reviewed.
+Confirm that all accessible comments were examined.
+12. Repeated Audience Sentiments
+13. Nostalgia and Human Insight Bank
+14. Hallucinations, Unsupported Claims, Outdated Claims, and Regional Confusion
+15. Existing Lists or Orders Found in the Supplied Material
+Preserve them exactly.
+16. Recommended Changes Requiring User Approval
+17. Final Proposed Avoid List
+18. Final Proposed Actually Good List
+19. Detailed Evidence Profile for Every Selected Product
+20. Recommended Countdown Order
+21. Detailed Order Rationale
+22. Anonymous Hook Facts for the Introduction
+Do not name the products inside the hook versions.
+23. Section-by-Section Script Blueprint
+24. Unique Main Angle for Every Product
+25. Good-Product Buying Guidance
+26. CTA Plan
+27. Legal and Monetisation Safety Guidance
+28. Claim Verification Matrix
+For every major usable claim, provide:
+Claim.
+Product.
+Source.
+Source date.
+Event date where relevant.
+Whether it refers to the current UK product.
+Verification level.
+Safe to use: yes, no, or only with qualification.
+Required attribution.
+Recommended script wording.
+Conflicting evidence.
+Uncertainty.
+29. Final Instructions for the Scriptwriter
+Include all important research, structural, audience, stylistic, legal, CTA, TTS, and formatting instructions needed by the next prompt.
+</research_and_script_preparation_package>
+Do not write the final voice-over script.
+Do not produce polished narration paragraphs.
+Do not ask the user to paste this package into another chat.
+The next prompt will be used later in this same conversation and must be able to access everything you have researched and written here.

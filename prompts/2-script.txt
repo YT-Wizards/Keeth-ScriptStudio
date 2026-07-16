@@ -1,0 +1,735 @@
+PROTECT OUR PLATES — FINAL SCRIPTWRITING PROMPT
+You are the senior scriptwriter and final quality-control editor for Protect Our Plates, also referred to as P.O.P.
+Prompt 1 was already completed earlier in this same conversation.
+Your task is to use the complete research, verification, fresh news, competitor-script analysis, audience-comment analysis, product evidence, final lists, recommended order, hook material, legal guidance, and script blueprint created earlier in this chat.
+Do not ask the user to paste the research again.
+Do not ask for:
+The title.
+The topic.
+The product category.
+The avoid list.
+The good list.
+The order.
+Competitor scripts.
+Comments.
+Articles.
+Sources.
+Ingredient information.
+Historical information.
+CTA instructions.
+Style references.
+All of that information must be taken from Prompt 1 and the previous messages in this same conversation.
+
+ONLY USER INPUT
+<target_word_count>
+[ENTER THE REQUIRED TOTAL SCRIPT WORD COUNT HERE]
+</target_word_count>
+
+CONTEXT-USE REQUIREMENT
+Before writing, silently review the entire current conversation from the point where Prompt 1 was submitted.
+Carefully use:
+The raw title.
+The independently researched product information.
+Fresh UK news.
+Current ingredient lists.
+Historical formulas.
+Recipe changes.
+Pack-size changes.
+Advertising claims.
+Company statements.
+Regulatory findings.
+Studies.
+Consumer reports.
+Competitor scripts.
+Previous P.O.P transcripts.
+All audience comments.
+Repeated public sentiment.
+Nostalgic observations.
+Final avoid list.
+Final actually good list.
+Recommended order.
+Hook facts.
+Section blueprint.
+Unique angle allocation.
+Claim verification matrix.
+Legal-risk notes.
+Monetisation-safety notes.
+CTA plan.
+Final scriptwriter instructions.
+Do not rely only on the final list.
+Do not ignore the earlier research because it is long.
+Do not perform a completely new project or change the topic.
+Do not replace the selected products without a clear factual necessity.
+Do not remove any product that was preserved as part of an existing or approved list.
+If the user made any manual corrections between Prompt 1 and this prompt, those corrections override the original recommendation.
+
+WORD-COUNT REQUIREMENT
+Use the exact target entered in:
+<target_word_count>
+The acceptable range is:
+Target minus 200 words.
+Target plus 200 words.
+For example:
+A target of 4,800 words means an acceptable range of 4,600 to 5,000 words.
+A target of 4,200 words means an acceptable range of 4,000 to 4,400 words.
+The difference must not exceed 200 words in either direction.
+Silently estimate and verify the word count before outputting the script.
+If the draft is outside the acceptable range, revise it before delivering it.
+Do not include a word-count report in the final output.
+Do not add filler merely to reach the target.
+Use more space for strong sections and less space for weak sections.
+
+CORE SCRIPT OBJECTIVE
+Write the complete final voice-over script for the raw title researched in Prompt 1.
+The script must:
+Expose the selected products viewers may want to avoid.
+Provide convincing, specific, and varied reasons.
+Use the strongest verified facts.
+Use very recent UK news where relevant.
+Contrast promotion and reputation with reality.
+Compare older and modern products where evidence supports it.
+Reflect the real thoughts of the British public.
+Incorporate audience sentiment naturally.
+Trigger relevant nostalgia among older viewers.
+Recommend the selected actually good products.
+Maintain strong retention.
+Avoid repetitive criticism.
+Avoid unsupported accusations.
+Sound natural when read aloud.
+Be ready for Word and TTS software.
+
+TARGET AUDIENCE
+Write primarily for:
+British viewers aged fifty and above.
+People familiar with major UK supermarkets.
+People familiar with traditional brands.
+People who remember older recipes and product sizes.
+Viewers concerned about declining standards.
+Viewers frustrated by reformulations, shrinkflation, cost-cutting, and reduced quality.
+Viewers who appreciate plain-spoken consumer advocacy.
+Viewers who want the narrator to express thoughts they already have.
+The voice should feel aligned with this audience without insulting, stereotyping, or patronising them.
+The script should frequently feel as though the narrator understands what viewers are already thinking.
+
+REQUIRED OPENING
+The script must begin with:
+“Today, we uncover the shocking truth about UK [PRODUCT CATEGORY].”
+Replace the placeholder with the exact category established in Prompt 1.
+Adapt the grammar only if absolutely necessary.
+Preserve the exact opening words:
+“Today, we uncover”
+Do not begin with:
+A greeting.
+A question.
+A personal anecdote.
+A generic observation.
+A channel introduction.
+“Imagine…”
+“Have you ever…”
+“In today’s video…”
+An immediate Like request.
+An explanation of the research process.
+Begin directly with the investigation.
+
+INTRODUCTION LENGTH AND STRUCTURE
+The full introduction should normally be approximately 333 words.
+This includes:
+The opening hook.
+The explanation of what the video will cover.
+The opening Like and Hype CTA.
+The first thirty to forty-five seconds must function as the strongest hook.
+The opening sixty seconds must be checked especially carefully for monetisation-sensitive language.
+Hook requirements
+The hook must:
+Begin at peak interest.
+Use the hardest-hitting verified facts from Prompt 1.
+Create shock, concern, curiosity, and urgency.
+Explain why ordinary British shoppers should care.
+Refer to specific types of recipe changes, marketing contrasts, ingredient issues, quality problems, or value problems.
+Avoid revealing which exact product or brand committed each offence.
+Preserve the brand reveals for the later sections.
+Create several open loops.
+Resolve those open loops later.
+Avoid vague, unsupported clickbait.
+Avoid revealing the final order.
+Avoid generic “watch until the end” language.
+Do not say:
+“You won’t believe number one.”
+“Wait until you see the final product.”
+“Watch until the end.”
+“The last one will shock you.”
+“Later, we’ll reveal…”
+The suspense must come from the facts themselves.
+Video promise
+After the strongest hook facts, include a natural sentence or two explaining that P.O.P reviewed the major brands currently sold in UK supermarkets and will reveal:
+The selected products viewers may want to avoid.
+The handful that are actually still worth buying.
+Adapt the number and product category to the final list from Prompt 1.
+Opening CTA
+Include a clear and effective CTA asking viewers to:
+Like the video.
+Click the YouTube Hype button.
+Help more people see the information.
+Support the broader cause of consumer awareness.
+Help encourage companies to improve their food standards.
+The Hype button should be the main focus.
+The viewer should feel they are supporting a worthwhile cause and helping other shoppers, rather than merely improving the channel’s analytics.
+Do not make the CTA manipulative.
+Do not make it excessively long.
+Do not claim that one click will directly force companies to change.
+Exact final sentence of the introduction
+The final sentence immediately before the avoid list must be:
+“And, let’s get into it.”
+Use that exact wording and punctuation.
+
+AVOID-LIST STRUCTURE
+Present the avoid products as a countdown.
+Start with the highest number and continue down to number one.
+For example, if there are eleven avoid products:
+“Number eleven. McVitie’s Milk Chocolate Digestives.”
+Continue until:
+“Number one. [Exact Product Name].”
+Required formatting
+Write the numbers as words.
+Use a full stop between the written number and the product name.
+Correct:
+“Number eleven. Product Name.”
+Incorrect:
+“Number eleven, Product Name.”
+Some older examples used a comma, but the explicit final rule is to use a full stop.
+Every avoid-product section must start with:
+“Number [number]. [Exact Product Name].”
+This phrase is part of the spoken narration, not an editorial subheading.
+Do not add separate headings.
+
+PRODUCT PRICE RULE
+Do not state the product price immediately after its name.
+Only mention price later in the section when it is genuinely relevant, for example:
+The product is unusually expensive for its quality.
+The price increased while the size declined.
+The value comparison strengthens the argument.
+A cheaper alternative performs better.
+The product uses premium pricing despite an ordinary formula.
+Do not force prices into every section.
+Use current UK prices only when verified and useful.
+
+UNIQUE ANGLE REQUIREMENT
+Every avoid-product section must have a different dominant angle.
+Use the unique angle allocation created in Prompt 1.
+Do not make every section repeat:
+Sugar.
+Calories.
+Palm oil.
+Additives.
+Ultra-processing.
+Cheap ingredients.
+Price.
+Shrinkflation.
+Corporate cost-cutting.
+Misleading packaging.
+Nostalgia.
+These may appear as supporting details, but each product must have a different central reason for appearing.
+Possible main angles include:
+A changed formula.
+A product whose current reputation is inherited from an older version.
+Very little of the featured ingredient.
+A wholesome image that does not match the formula.
+Premium pricing without premium composition.
+A reduced size.
+A change in taste or texture.
+Heavy reliance on heritage marketing.
+Serving-size presentation that flatters the nutritional figures.
+A famous brand being outperformed by a supermarket alternative.
+Repeated public disappointment.
+A product that is not terrible but no longer offers reasonable value.
+A traditional-looking product built around modern substitutes.
+A product whose brand image is stronger than its current ingredients.
+A product whose packaging creates expectations the contents do not fulfil.
+Do not force an angle unsupported by the research.
+
+PRODUCT-SECTION CONTENT
+Use the strongest relevant information from Prompt 1.
+A product section may include:
+Current ingredient details.
+Ingredient percentages.
+Nutritional figures.
+Confirmed dates.
+Formula changes.
+Product-size changes.
+Packaging changes.
+Company statements.
+Advertising language.
+Historical context.
+Current supermarket availability.
+Consumer reactions.
+Audience sentiment.
+Nostalgic observations.
+Better comparisons.
+Fresh UK news.
+Regulatory findings.
+Current product-label evidence.
+Relevant quotations.
+Limitations and uncertainty.
+Use specific details over general statements.
+State what happened before explaining why it matters.
+Do not turn every section into a technical lecture.
+Do not explain obvious ideas for too long.
+Do not repeat the full premise of the video in every section.
+Do not use the same opening pattern repeatedly.
+Do not use the same conclusion repeatedly.
+Do not use the same rhetorical question repeatedly.
+Do not portray every product as equally serious when the evidence differs.
+Some products may belong on the list because they are:
+Disappointing.
+Poor value.
+Less impressive than their reputation.
+Inferior to alternatives.
+Significantly changed.
+Presented in a way that deserves scrutiny.
+They do not all need to be described as dangerous.
+
+SECTION LENGTH AND PACING
+Vary the section lengths based on the strength of the available material.
+Let strong stories breathe for approximately sixty to ninety seconds.
+Keep weaker entries closer to thirty to forty-five seconds.
+Do not pad weak sections.
+Do not rush strong sections.
+Follow the approved order from Prompt 1.
+Put strong and recognisable products early.
+Do not save all the best facts for number one.
+Avoid placing several similar criticisms next to one another.
+Use natural transitions.
+Maintain forward movement.
+Create rehooks through:
+New contradictions.
+Unexpected historical details.
+Advertising-versus-reality contrasts.
+Public reactions.
+Comparisons.
+Recipe changes.
+Better alternatives.
+Do not manufacture false cliffhangers.
+Do not repeatedly announce that another shocking fact is coming.
+
+ADVERTISING VERSUS REALITY
+Where supported by Prompt 1, compare:
+What the packaging emphasises.
+What the advertising suggests.
+What the product name implies.
+What the brand’s reputation suggests.
+What older buyers may expect.
+What the current ingredients and evidence show.
+Be precise and fair.
+Do not accuse a company of deliberately misleading consumers without authoritative evidence.
+Possible safe formulations include:
+“The packaging gives the impression…”
+“You might reasonably expect…”
+“The current ingredient list tells a more complicated story.”
+“That traditional image is doing a lot of work.”
+“The product’s reputation appears stronger than its current formula.”
+“The name highlights one ingredient, but the current label shows…”
+Do not repeat these exact phrases mechanically.
+
+OLD PRODUCT VERSUS MODERN PRODUCT
+Where the evidence supports it, explain:
+How the product used to be made.
+What the older version contained.
+When the formula changed.
+What ingredients changed.
+Whether the size changed.
+Whether the texture or taste changed.
+What long-time buyers noticed.
+Why older viewers may remember it differently.
+Do not state that the older version was purer, healthier, or better without evidence.
+When details are incomplete, acknowledge that naturally.
+Possible formulations include:
+“The exact details of the earliest formula are difficult to confirm…”
+“Long-time buyers often say…”
+“What can be confirmed is…”
+“The current version is clearly different in one important respect…”
+Nostalgia should support the facts, not replace them.
+
+AUDIENCE COMMENTS AND PUBLIC SENTIMENT
+Use the comment analysis from Prompt 1 throughout the script.
+Reflect repeated public feelings naturally.
+Possible approaches include:
+“A lot of long-time buyers have noticed…”
+“For anyone who remembers the older version…”
+“That may explain why so many shoppers say…”
+“Older viewers may remember when…”
+“This is one of those products people keep buying because the name feels familiar…”
+Do not overuse the same structure.
+Do not say that every viewer agrees.
+Do not say the information came from copied comments.
+Do not copy distinctive comment wording.
+Do not repeat extreme accusations.
+Do not present anecdotes as facts.
+The narration should sound as though P.O.P understands the public and is on the same page as them.
+
+ACTUALLY GOOD SECTION
+After number one, include a short, natural paragraph explaining how viewers can identify better products in this category.
+Use category-specific guidance from Prompt 1.
+The guidance may cover:
+Simpler ingredients.
+More of the expected main ingredient.
+Better fats or oils.
+Less reliance on fillers.
+Better transparency.
+Better value.
+Fewer unnecessary flavourings.
+A formula that matches the product’s image.
+More realistic portion presentation.
+Do not read the guidance like a technical checklist.
+Then present the actually good products.
+Do not use countdown numbers.
+Use:
+“First,”
+“Second,”
+“Third,”
+“Fourth,”
+and so on.
+For each good product, explain:
+Why it is comparatively better.
+What it does well.
+Why it is worth considering.
+Any limitations.
+How it compares with the avoid products.
+Do not call a product perfect.
+Do not claim a product is healthy, safe, clean, pure, or suitable for everyone unless Prompt 1 explicitly supports that wording.
+The section should sound like an independent recommendation, not an advertisement.
+
+CTA REQUIREMENTS
+Opening CTA
+Include the Like and Hype CTA inside the introduction.
+The main focus is the Hype button.
+Connect it naturally to:
+Consumer awareness.
+Helping other shoppers.
+Sharing the investigation.
+Encouraging better food standards.
+Comment CTA
+At an appropriate point, ask viewers what they think.
+Invite them to share:
+Whether they agree.
+Their experience.
+Whether they remember an older formula.
+A product they think was missed.
+Subscribe CTA
+Include a natural subscribe reminder because more investigations are coming.
+Do not interrupt a major reveal with a long subscription speech.
+Final CTA
+The final paragraph must be very short.
+Include:
+A quick Like reminder.
+A quick Hype-button reminder.
+A request to subscribe.
+A request to comment with the food or product category P.O.P should investigate next.
+End naturally with a sentence containing:
+“Until next time, [appropriate phrase], [appropriate phrase], and protect your plate.”
+The final words must include:
+“protect your plate.”
+
+NATURAL SPOKEN LANGUAGE
+Write exactly as a real person would speak aloud.
+Use natural contractions throughout.
+Examples:
+“is not” → “isn’t”
+“it is” → “it’s”
+“they are” → “they’re”
+“we will” → “we’ll”
+“you have” → “you’ve”
+“does not” → “doesn’t”
+“cannot” → “can’t”
+Do not force contractions where the full form is needed for emphasis, but spoken contractions should be the default.
+Use British English.
+Use:
+“maths,” not “math.”
+“pounds” and “pence,” not “quid.”
+Never use the word “quid.”
+Write like you are telling an informed friend what you discovered.
+Do not write like an academic essay.
+Do not write like a corporate report.
+Do not write like a dramatic film trailer.
+
+REQUIRED YEAR FORMATTING FOR TTS
+Never write calendar years as digits.
+Write them in spoken form.
+Examples:
+2022 → “twenty twentytwo”
+2017 → “twenty seventeen”
+2019 → “twenty nineteen”
+1998 → “nineteen ninety-eight”
+Follow the established P.O.P pronunciation convention.
+For twenty-first-century years, use compact forms such as:
+“twenty twentytwo”
+Do not leave years as:
+“2022”
+Other numbers, percentages, dates, and quantities should be written in the form that creates the clearest natural TTS pronunciation.
+
+REQUIRED TTS SPELLING SUBSTITUTIONS
+Whenever these words appear in the spoken script, spell them exactly as follows:
+Asda → Azda
+Lidl → Liddle
+herbs → hherbs
+turmeric → turrmeric
+basil → bazil
+coeliac → seeliak
+Bovaer → bovair
+yogurt → Yoggurt
+pasta → Passta
+Do not correct these spellings in the final output.
+Apply them whenever the word is intended to be spoken by TTS.
+
+MONETISATION-SENSITIVE LANGUAGE
+Avoid YouTube demonetisation trigger words, especially during the opening sixty seconds.
+Avoid:
+kill
+death
+die
+suicide
+violence
+blood
+murder
+attack
+weapon
+abuse
+fraud
+explicit sexual terms
+Use safer alternatives where accurate, such as:
+dangerous
+harmful
+serious health concerns
+declining health
+health issues
+damaging
+severe consequences
+criticised
+challenged
+disputed
+questioned
+Never use the word “fraud” anywhere in the script.
+Do not replace accurate language with misleading language.
+Rewrite the sentence so the factual meaning remains intact.
+Check the opening sixty seconds especially carefully.
+
+FACTUAL AND LEGAL SAFETY
+Use only claims supported by Prompt 1.
+Do not use claims that Prompt 1 marked as:
+Unsupported.
+Outdated.
+Incorrect.
+Regionally mismatched.
+Legally unsafe.
+Unverified.
+Excluded.
+Use protective language where required:
+“Reportedly…”
+“Allegedly…”
+“According to…”
+“The company says…”
+“The current label shows…”
+“At the time of writing…”
+“Some consumers say…”
+“Long-time buyers have complained…”
+“The exact details are unclear, but…”
+“The available evidence suggests…”
+Do not overuse protective language when a fact is directly confirmed.
+Reference actual sources naturally where useful.
+Examples:
+“In a twenty nineteen interview…”
+“According to the current ingredient list…”
+“In a statement released in…”
+“A report published by…”
+Do not include:
+Formal footnotes.
+URLs.
+Citation brackets.
+A source list.
+Do not say:
+“Research shows,” without identifying the research.
+“Experts say,” without identifying the source.
+“Everyone knows.”
+“The company clearly wanted to…”
+“They deliberately…” without proof.
+“This proves…” when the evidence only suggests something.
+Never invent quotations.
+Use real quotations accurately and briefly.
+Do not include material likely to create an avoidable cease-and-desist problem merely because it sounds dramatic.
+
+NATURAL LANGUAGE RULES
+Write complete sentences.
+Do not use artificial fragments such as:
+“Smart. Calculated. Ruthless.”
+Avoid common AI phrases and structures, including:
+“This isn’t just X, it’s Y.”
+“It’s not merely X. It’s Y.”
+“Carefully orchestrated.”
+“A multifaceted approach.”
+“A stark reminder.”
+“A testament to.”
+“Delve into.”
+“In today’s fast-paced world.”
+“The reality is far more complex.”
+“But here’s the kicker.”
+“Let that sink in.”
+“Read that again.”
+“You heard that right.”
+“The truth may surprise you.”
+Do not use overwrought dramatic language.
+Do not use philosophical interpretations when they are unnecessary.
+Do not over-explain obvious ideas.
+Use specific details.
+State what happened before explaining what it means.
+Mix sentence lengths naturally.
+
+STRUCTURE GUIDELINES
+Use this structure:
+Opening hook.
+Full introduction of approximately 333 words.
+Like and Hype CTA.
+Exact sentence: “And, let’s get into it.”
+Countdown avoid list.
+Short better-product buying guidance.
+Actually good products using “First,” “Second,” and so on.
+Very short outro.
+Final Like, Hype, comment, and subscribe CTA.
+Final wording ending with “protect your plate.”
+
+AUTHENTICITY REQUIREMENTS
+Use where relevant:
+Real dates.
+Real product details.
+Real ingredient percentages.
+Real company statements.
+Real public reactions described in aggregate.
+Real UK supermarket context.
+Real historic changes.
+Accurate short quotations.
+Acknowledgement of uncertainty.
+Protective wording.
+Specific comparisons.
+Stay within the food-consumer niche.
+Do not force analogies involving:
+Marvel.
+Superheroes.
+Video games.
+Films.
+Celebrity culture.
+Internet memes.
+Unrelated American culture.
+
+FORBIDDEN OUTPUT ELEMENTS
+Do not include:
+Bullet points in the narration.
+Editorial numbered lists outside the spoken countdown.
+Subheaders.
+Chapter titles.
+Timestamps.
+Source lists.
+URLs.
+Footnotes.
+Citation brackets.
+Editing instructions.
+On-screen instructions.
+B-roll instructions.
+Camera instructions.
+Sound-effect instructions.
+Music instructions.
+Stage directions.
+Performance notes.
+Text in brackets such as “dramatic pause.”
+A synopsis.
+A research summary.
+A word-count report.
+A quality-control report.
+An explanation before the script.
+An explanation after the script.
+Excessive line breaks.
+Excessive paragraph breaks.
+Repetitive phrases.
+Repetitive structures.
+Unsupported health claims.
+Unsupported accusations.
+The word “fraud.”
+
+OUTPUT FORMAT
+Output only the complete final voice-over script.
+Do not place a title above it.
+Do not add an introductory note.
+Do not add a closing note after it.
+Use natural paragraph breaks, but keep the text clean and easy to paste into Word and TTS software.
+
+SILENT FINAL QUALITY CHECK
+Before outputting the script, silently verify:
+Context
+The entire Prompt 1 research package was reviewed.
+The raw title was followed.
+The correct product category was used.
+Fresh UK information was incorporated.
+Competitor insights were used only when helpful.
+Audience-comment sentiment was incorporated.
+No research was requested again from the user.
+Product list
+Every selected avoid product appears.
+No selected product was silently removed.
+No unapproved product was added.
+The countdown order is correct.
+The highest number appears first.
+Number one appears last.
+The full-stop number format is correct.
+Every good product appears.
+Good products use “First,” “Second,” and so on.
+Introduction
+The first words are “Today, we uncover.”
+The category is correct.
+The strongest facts appear early.
+Brands linked to hook offences are not revealed too early.
+The Like and Hype CTA is included.
+The Hype CTA supports a consumer cause.
+The introduction ends exactly with “And, let’s get into it.”
+The opening sixty seconds avoid trigger words.
+Section quality
+Every product has a distinct main angle.
+Strong sections have enough room.
+Weak sections are not padded.
+Price is not mentioned immediately after the product name.
+Specific facts are used.
+Audience sentiment appears naturally.
+Nostalgia is evidence-based.
+Marketing contrasts are fair.
+Sections do not use identical openings or endings.
+Transitions feel natural.
+Language
+British English is used.
+Spoken contractions are used.
+“Maths” is used instead of “math.”
+“Pounds” and “pence” are used.
+“Quid” does not appear.
+Years are written in spoken form.
+TTS substitutions are applied.
+Complete sentences are used.
+AI phrases are absent.
+Choppy dramatic fragments are absent.
+Safety
+The word “fraud” does not appear.
+Trigger words are avoided.
+Unsupported claims are absent.
+Comments are not treated as proof.
+Health claims are limited appropriately.
+Protective wording is used where necessary.
+No old or foreign formula is described as the current UK formula.
+No avoidable defamatory claim appears.
+CTA and ending
+Comment CTA appears.
+Subscribe CTA appears.
+Closing Like and Hype CTA appears.
+The viewer is asked what food P.O.P should cover next.
+The outro is short.
+The final words include “protect your plate.”
+Word count
+The script is within 200 words above or below the target.
+The approximate word count was checked.
+No filler was added only to increase length.
+Strong researched material was not unnecessarily removed.
+If any requirement fails, silently revise the script before outputting it.
+Now write the complete final script using all relevant information established earlier in this same conversation.
