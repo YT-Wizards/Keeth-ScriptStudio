@@ -48,6 +48,98 @@ export async function runResearch(project) {
     .replace('[PASTE ALL AVAILABLE AUDIENCE COMMENTS OR CSV COMMENT DATA HERE.]', commentsSection)
     + buildNewsSection(project);
 
-  const { text, model, grounded, usage } = await geminiGenerate({ prompt, useSearch: true });
-  return { text, model, grounded, usage, at: new Date().toISOString() };
+  // Phase 1 — synthesis. On very long prompts Gemini reliably SKIPS the search
+  // tool (verified empirically), so grounding happens in phase 2 instead.
+  const synthesis = await geminiGenerate({ prompt, useSearch: true });
+
+  // Phase 2 — live web verification. Search only triggers dependably on short
+  // prompts, so verify one product per compact call, in parallel.
+  const addendum = await liveVerification(project.title, synthesis.text);
+
+  return {
+    text: `${synthesis.text}\n\n=== LIVE WEB VERIFICATION ADDENDUM (search-grounded second pass; where this conflicts with the package above, THIS is current) ===\n${addendum.text}`,
+    model: synthesis.model,
+    grounded: addendum.grounded,
+    searchQueries: addendum.searchQueries,
+    usage: synthesis.usage,
+    at: new Date().toISOString(),
+  };
+}
+
+// prefer flash for the many small verification calls — faster, grounds reliably
+const VERIFY_MODELS = ['gemini-flash-latest', 'gemini-pro-latest', 'gemini-flash-lite-latest'];
+const VERIFY_CONCURRENCY = 10;
+const VERIFY_MAX_PRODUCTS = 20;
+
+async function liveVerification(title, packageText) {
+  // pull the final product names out of the package (cheap, no search needed)
+  let names = [];
+  try {
+    const extraction = await geminiGenerate({
+      models: VERIFY_MODELS,
+      prompt: `From the research package below, output ONLY the exact product names on the Final Proposed Avoid List and the Final Proposed Actually Good List — one per line, brand included, no numbering, no commentary.\n\n${packageText}`,
+    });
+    names = extraction.text
+      .split('\n')
+      .map((l) => l.replace(/^[-*\d.\s]+/, '').trim())
+      .filter((l) => l && l.length < 90)
+      .slice(0, VERIFY_MAX_PRODUCTS);
+  } catch {
+    names = [];
+  }
+
+  const tasks = names.map((name) => async () => {
+    const { text, grounded, searchQueries } = await geminiGenerate({
+      models: VERIFY_MODELS,
+      useSearch: true,
+      system:
+        'You are a live product verification researcher for UK consumer journalism. You MUST use the Google Search tool — never answer from memory.',
+      prompt: `Search the web for the CURRENT UK version of this product: "${name}".\nReport in 5-8 plain lines: current ingredient list highlights (first ingredients, notable additives/oils/sweeteners), current pack size, current availability in UK supermarkets, any reformulation/shrinkflation/recall/news from the last year (with dates), and name your sources. If something cannot be verified, say so explicitly.`,
+    });
+    return { name, text, grounded, searchQueries };
+  });
+  // fresh category news sweep as one extra compact call
+  tasks.push(async () => {
+    const { text, grounded, searchQueries } = await geminiGenerate({
+      models: VERIFY_MODELS,
+      useSearch: true,
+      system: 'You MUST use the Google Search tool — never answer from memory.',
+      prompt: `Search for UK news from the last 60 days relevant to this video topic: "${title}" (reformulations, recalls, price rises, shrinkflation, public backlash, regulator rulings). List each genuinely useful finding with its date and source. If nothing significant, say so.`,
+    });
+    return { name: 'FRESH CATEGORY NEWS', text, grounded, searchQueries };
+  });
+
+  // transient network failures are common on parallel calls — retry each task
+  const withRetry = (task) => async () => {
+    let lastError;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        return await task();
+      } catch (e) {
+        lastError = e;
+        await new Promise((r) => setTimeout(r, 3000 * (attempt + 1)));
+      }
+    }
+    throw lastError;
+  };
+
+  const results = [];
+  for (let i = 0; i < tasks.length; i += VERIFY_CONCURRENCY) {
+    const batch = await Promise.allSettled(
+      tasks.slice(i, i + VERIFY_CONCURRENCY).map((t) => withRetry(t)())
+    );
+    for (const r of batch) {
+      if (r.status === 'fulfilled') results.push(r.value);
+      else results.push({ name: '(verification call failed)', text: r.reason.message, grounded: false, searchQueries: 0 });
+    }
+  }
+
+  if (!results.length) {
+    return { text: '(live verification unavailable — no products extracted)', grounded: false, searchQueries: 0 };
+  }
+  return {
+    text: results.map((r) => `--- ${r.name}${r.grounded ? '' : ' [NOT search-verified]'} ---\n${r.text}`).join('\n\n'),
+    grounded: results.some((r) => r.grounded),
+    searchQueries: results.reduce((sum, r) => sum + (r.searchQueries || 0), 0),
+  };
 }

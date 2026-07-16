@@ -57,7 +57,14 @@ export default function ScriptStep({ project, onUpdate }) {
           <CheckLine ok={checks.withinRange}>
             Word count: {checks.wordCount.toLocaleString()} (target{' '}
             {checks.targetWords.toLocaleString()} ±200)
+            {script.attempts?.length > 1 &&
+              ` — auto-adjusted: ${script.attempts.map((a) => a.words.toLocaleString()).join(' → ')}`}
           </CheckLine>
+          {checks.structure.introWords != null && (
+            <p className="muted">
+              Intro length: {checks.structure.introWords} words (guideline ≈333)
+            </p>
+          )}
           <CheckLine ok={checks.banned.length === 0} warn={!checks.banned.some((b) => b.critical)}>
             Demonetisation words: {checks.banned.length === 0 ? 'none found' : ''}
           </CheckLine>

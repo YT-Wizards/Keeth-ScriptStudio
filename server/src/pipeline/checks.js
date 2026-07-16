@@ -67,9 +67,12 @@ export function analyzeScript(text, targetWords) {
   // years written as digits
   const digitYears = [...text.matchAll(/\b(19|20)\d{2}\b/g)].map((m) => m[0]);
 
+  const letsGetIntoIt = text.indexOf("And, let's get into it.");
   const structure = {
     opensCorrectly: /^Today, we uncover the shocking truth about/.test(text.trim()),
-    hasLetsGetIntoIt: text.includes("And, let's get into it."),
+    hasLetsGetIntoIt: letsGetIntoIt !== -1,
+    // client's guideline: intro ≈ 333 words (his real hits range 300–700, so informational only)
+    introWords: letsGetIntoIt !== -1 ? wordCount(text.slice(0, letsGetIntoIt)) : null,
     endsProtectYourPlate: /protect your plate[.!]?\s*$/.test(text.trim()),
     countdownItems: (text.match(/\bNumber\s+[A-Za-z]+\s*[.,]/gi) ?? []).length,
     goodListMarkers: (text.match(/(?:^|\n|\. )(First|Second|Third|Fourth|Fifth|Sixth)[,.]/g) ?? []).length,

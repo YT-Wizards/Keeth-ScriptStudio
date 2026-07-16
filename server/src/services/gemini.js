@@ -34,10 +34,12 @@ export async function geminiGenerate({ prompt, system, useSearch = false, models
         errors.push(`${model}: empty response (${data.candidates?.[0]?.finishReason || 'no candidates'})`);
         continue;
       }
+      const gm = data.candidates?.[0]?.groundingMetadata;
       return {
         text,
         model,
-        grounded: !!data.candidates?.[0]?.groundingMetadata,
+        grounded: !!(gm && (gm.groundingChunks?.length || gm.webSearchQueries?.length || gm.searchEntryPoint)),
+        searchQueries: gm?.webSearchQueries?.length ?? 0,
         usage: data.usageMetadata ?? null,
       };
     }

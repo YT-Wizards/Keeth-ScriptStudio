@@ -61,7 +61,10 @@ export default function ResearchStep({ project, onUpdate }) {
           <details>
             <summary>
               Research package ({project.research.model}
-              {project.research.grounded ? ', web-grounded' : ''})
+              {project.research.grounded
+                ? `, web-grounded — ${project.research.searchQueries || 'several'} searches`
+                : ', ⚠ no web search detected — treat facts with extra care'}
+              )
             </summary>
             <pre className="output">{project.research.text}</pre>
           </details>

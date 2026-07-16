@@ -25,7 +25,19 @@ export const api = {
   getSettings: () => request('/api/settings'),
   saveSettings: (settings) => request('/api/settings', { method: 'PUT', body: JSON.stringify(settings) }),
 
-  runStage: (id, stage) => request(`/api/pipeline/${id}/${stage}`, { method: 'POST', body: '{}' }),
+  // starts the stage as a background job, then polls the project until the
+  // job finishes; resolves with the final project (throws on stage error)
+  runStage: async function (id, stage, onProgress = () => {}) {
+    let project = await request(`/api/pipeline/${id}/run/${stage}`, { method: 'POST', body: '{}' });
+    while (project.jobs?.[stage]?.status === 'running') {
+      await new Promise((r) => setTimeout(r, 4000));
+      project = await request(`/api/projects/${id}`);
+      onProgress(project);
+    }
+    const job = project.jobs?.[stage];
+    if (job?.status === 'error') throw new Error(job.message || `Stage ${stage} failed`);
+    return project;
+  },
   updateScriptChecks: (id, body) =>
     request(`/api/pipeline/${id}/checks`, { method: 'POST', body: JSON.stringify(body) }),
   exportUrl: (id, format) => `/api/pipeline/${id}/export?format=${format}`,
