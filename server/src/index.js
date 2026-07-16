@@ -7,6 +7,7 @@ import ingestRouter from './routes/ingest.js';
 import settingsRouter from './routes/settings.js';
 import promptsRouter from './routes/prompts.js';
 import projectsRouter from './routes/projects.js';
+import pipelineRouter from './routes/pipeline.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
@@ -19,6 +20,7 @@ app.use('/api/ingest', ingestRouter);
 app.use('/api/settings', settingsRouter);
 app.use('/api/prompts', promptsRouter);
 app.use('/api/projects', projectsRouter);
+app.use('/api/pipeline', pipelineRouter);
 
 app.get('/api/health', (_req, res) => res.json({ ok: true }));
 
@@ -35,4 +37,7 @@ app.use((err, _req, res, _next) => {
 });
 
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => console.log(`Keeth Script Studio server on http://localhost:${PORT}`));
+const server = app.listen(PORT, () => console.log(`Keeth Script Studio server on http://localhost:${PORT}`));
+// pipeline stages (research, script generation) legitimately run for many minutes
+server.requestTimeout = 0;
+server.headersTimeout = 0;

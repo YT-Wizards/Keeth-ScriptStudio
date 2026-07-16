@@ -8,7 +8,9 @@
     "start": "node src/index.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.111.0",
     "cors": "^2.8.5",
+    "docx": "^9.7.1",
     "express": "^4.21.2",
     "rss-parser": "^3.13.0",
     "youtubei.js": "^17.2.0"

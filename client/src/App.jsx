@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { api } from './api.js';
 import ProjectList from './components/ProjectList.jsx';
 import SourcesStep from './components/SourcesStep.jsx';
+import ResearchStep from './components/ResearchStep.jsx';
+import ApprovalStep from './components/ApprovalStep.jsx';
+import ScriptStep from './components/ScriptStep.jsx';
 import SettingsPage from './components/SettingsPage.jsx';
 
 const STAGES = [
@@ -41,19 +44,21 @@ export default function App() {
         <div className="project">
           <div className="stagebar">
             {STAGES.map((s) => (
-              <span key={s.key} className={`stage ${project.stage === s.key ? 'current' : ''}`}>
+              <button
+                key={s.key}
+                className={`stage ${project.stage === s.key ? 'current' : ''}`}
+                onClick={async () => setProject(await api.updateProject(project.id, { stage: s.key }))}
+              >
                 {s.label}
-              </span>
+              </button>
             ))}
           </div>
           <h2>{project.title}</h2>
-          {project.stage === 'sources' && (
-            <SourcesStep project={project} onUpdate={setProject} />
-          )}
-          {project.stage !== 'sources' && (
-            <p className="muted">
-              This stage is coming in the next build — the AI research pipeline runs from here.
-            </p>
+          {project.stage === 'sources' && <SourcesStep project={project} onUpdate={setProject} />}
+          {project.stage === 'research' && <ResearchStep project={project} onUpdate={setProject} />}
+          {project.stage === 'approval' && <ApprovalStep project={project} onUpdate={setProject} />}
+          {(project.stage === 'script' || project.stage === 'export') && (
+            <ScriptStep project={project} onUpdate={setProject} />
           )}
         </div>
       )}

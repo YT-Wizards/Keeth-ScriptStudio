@@ -25,6 +25,11 @@ export const api = {
   getSettings: () => request('/api/settings'),
   saveSettings: (settings) => request('/api/settings', { method: 'PUT', body: JSON.stringify(settings) }),
 
+  runStage: (id, stage) => request(`/api/pipeline/${id}/${stage}`, { method: 'POST', body: '{}' }),
+  updateScriptChecks: (id, body) =>
+    request(`/api/pipeline/${id}/checks`, { method: 'POST', body: JSON.stringify(body) }),
+  exportUrl: (id, format) => `/api/pipeline/${id}/export?format=${format}`,
+
   getPrompts: () => request('/api/prompts'),
   savePrompt: (key, content) =>
     request(`/api/prompts/${key}`, { method: 'PUT', body: JSON.stringify({ content }) }),
