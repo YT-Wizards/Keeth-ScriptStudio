@@ -46,22 +46,6 @@ export default function SettingsPage() {
               onChange={(e) => setSettings({ ...settings, anthropicApiKey: e.target.value })}
             />
           </label>
-          <label>
-            Reddit app client id <span className="muted">(optional — needed to pull Reddit threads automatically)</span>
-            <input
-              type="password"
-              value={settings.redditClientId || ''}
-              onChange={(e) => setSettings({ ...settings, redditClientId: e.target.value })}
-            />
-          </label>
-          <label>
-            Reddit app client secret
-            <input
-              type="password"
-              value={settings.redditClientSecret || ''}
-              onChange={(e) => setSettings({ ...settings, redditClientSecret: e.target.value })}
-            />
-          </label>
           <button type="submit">Save keys</button>
         </form>
       </section>

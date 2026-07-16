@@ -43,22 +43,13 @@ export default function SourcesStep({ project, onUpdate }) {
     await save({ youtube: fetched });
   }
 
-  async function fetchReddit() {
-    const urls = redditInput.split(/\s+/).filter(Boolean);
-    if (!urls.length) return;
-    setErrors([]);
-    const fetched = [...sources.reddit];
-    for (const url of urls) {
-      setBusy(`Fetching ${url} …`);
-      try {
-        fetched.push(await api.ingestReddit(url));
-      } catch (e) {
-        addError(`${url}: ${e.message}`);
-      }
-    }
-    setBusy('');
+  async function addRedditPaste() {
+    const text = redditInput.trim();
+    if (!text) return;
+    // first non-empty line is usually the post title in a full-page copy
+    const title = text.split('\n').map((l) => l.trim()).find(Boolean)?.slice(0, 90) || 'Pasted thread';
+    await save({ reddit: [...sources.reddit, { title, text, addedAt: new Date().toISOString() }] });
     setRedditInput('');
-    await save({ reddit: fetched });
   }
 
   async function searchNews() {
@@ -144,18 +135,23 @@ export default function SourcesStep({ project, onUpdate }) {
 
       <section className="card">
         <h3>Reddit threads</h3>
+        <p className="muted">
+          Open the thread in your browser, select all (Ctrl+A), copy, and paste it here — the post and
+          comments get used for research the same way as YouTube material.
+        </p>
         <textarea
-          rows="2"
-          placeholder="Paste Reddit links (post and comments are pulled automatically)"
+          rows="4"
+          placeholder="Paste the whole Reddit thread here"
           value={redditInput}
           onChange={(e) => setRedditInput(e.target.value)}
         />
-        <button onClick={fetchReddit} disabled={!!busy}>Fetch threads</button>
+        <button onClick={addRedditPaste} disabled={!redditInput.trim()}>Add thread</button>
         {sources.reddit.length > 0 && (
           <ul className="sourceList">
             {sources.reddit.map((r, i) => (
-              <li key={`${r.url}-${i}`}>
-                <strong>{r.title}</strong> <span className="muted">({r.subreddit}, {r.commentCount} comments)</span>
+              <li key={i}>
+                <strong>{r.title}</strong>{' '}
+                <span className="muted">(~{(r.text || '').split(/\s+/).length.toLocaleString()} words pasted)</span>
                 <button className="link danger" onClick={() => removeSource('reddit', i)}>remove</button>
               </li>
             ))}
