@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', system-ui, sans-serif;
-  font-size: 19px;
+  font-size: 21px;
   background: #f4f5f7;
   color: #1c1e21;
 }
@@ -31,7 +31,7 @@ body {
 
 button {
   font: inherit;
-  padding: 8px 14px;
+  padding: 10px 18px;
   border-radius: 8px;
   border: 1px solid #c8ccd2;
   background: #fff;
@@ -48,18 +48,18 @@ button:disabled { opacity: 0.5; cursor: default; }
 input, textarea {
   font: inherit;
   width: 100%;
-  padding: 8px 10px;
+  padding: 10px 12px;
   border: 1px solid #c8ccd2;
   border-radius: 8px;
   margin: 4px 0 10px;
 }
 textarea { resize: vertical; }
 
-label { display: block; font-weight: 600; font-size: 0.9rem; }
+label { display: block; font-weight: 600; font-size: 1rem; }
 label.inline { display: inline-flex; align-items: center; gap: 6px; font-weight: 400; }
 label.inline input { width: auto; margin: 0; }
 
-.newProject { display: flex; flex-direction: column; max-width: 560px; }
+.newProject { display: flex; flex-direction: column; }
 .newProject button { align-self: flex-start; }
 
 .row { display: flex; gap: 8px; align-items: flex-start; }
@@ -122,6 +122,6 @@ label.inline input { width: auto; margin: 0; }
 .promptEditor summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .promptEditor textarea { font-family: Consolas, monospace; font-size: 0.85rem; }
 
-.muted { color: #6b7280; font-size: 0.9rem; }
+.muted { color: #6b7280; font-size: 0.95rem; }
 .error { color: #b3261e; }
 .busy { color: #2456d6; }
