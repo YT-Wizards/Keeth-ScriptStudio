@@ -37,7 +37,7 @@ app.use((err, _req, res, _next) => {
 });
 
 const PORT = process.env.PORT || 3001;
-const server = app.listen(PORT, () => console.log(`Keeth Script Studio server on http://localhost:${PORT}`));
+const server = app.listen(PORT, () => console.log(`Script Studio server on http://localhost:${PORT}`));
 // pipeline stages (research, script generation) legitimately run for many minutes
 server.requestTimeout = 0;
 server.headersTimeout = 0;

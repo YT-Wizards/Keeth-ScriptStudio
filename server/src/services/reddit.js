@@ -5,7 +5,7 @@ import { getSettings } from '../store.js';
 // one we still try the public endpoint and fail with a friendly message telling
 // the user to paste the thread content manually.
 
-const UA = 'windows:keeth-script-studio:v0.1 (local research tool)';
+const UA = 'windows:script-studio:v0.1 (local research tool)';
 
 let cachedToken = null; // { token, expiresAt }
 

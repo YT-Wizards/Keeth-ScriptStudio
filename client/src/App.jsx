@@ -27,7 +27,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <h1 onClick={() => setView('projects')}>Keeth Script Studio</h1>
+        <h1 onClick={() => setView('projects')}>Script Studio</h1>
         <nav>
           <button className={view !== 'settings' ? 'active' : ''} onClick={() => setView('projects')}>
             Scripts

@@ -1,5 +1,5 @@
 {
-  "name": "keeth-script-studio",
+  "name": "script-studio",
   "version": "0.1.0",
   "private": true,
   "description": "Local app that turns a video title + source links into an approved, style-checked P.O.P voice-over script",
