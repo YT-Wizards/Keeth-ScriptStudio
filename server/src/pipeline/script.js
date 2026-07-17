@@ -24,8 +24,19 @@ export async function runScript(project) {
   // models consistently undershoot by ~20-25%, so ask for slightly more than
   // the real target up front — fewer (or no) revision passes needed after
   const biasedTarget = project.targetWords + 300;
+  // the template is user-editable; the word-count placeholder has appeared as
+  // "[ENTER THE REQUIRED ... HERE]" and as an example value like "[4700]"
+  // inside <target_word_count> — handle both, else append explicitly
+  let filled;
+  if (/\[ENTER THE REQUIRED TOTAL SCRIPT WORD COUNT HERE\]/i.test(template)) {
+    filled = template.replace(/\[ENTER THE REQUIRED TOTAL SCRIPT WORD COUNT HERE\]/i, String(biasedTarget));
+  } else if (/(<target_word_count>[\s\r\n]*)\[[^\]]*\]/i.test(template)) {
+    filled = template.replace(/(<target_word_count>[\s\r\n]*)\[[^\]]*\]/i, `$1${biasedTarget}`);
+  } else {
+    filled = `${template}\n\n<target_word_count>\n${biasedTarget}\n</target_word_count>`;
+  }
   const prompt =
-    template.replace('[ENTER THE REQUIRED TOTAL SCRIPT WORD COUNT HERE]', String(biasedTarget)) +
+    filled +
     `\n\nCONTEXT FROM EARLIER PIPELINE STAGES (this replaces "earlier in this conversation"):\n\n=== RESEARCH & SCRIPT PREPARATION PACKAGE ===\n${project.research.text}\n\n=== INDEPENDENT FACT-CHECK REPORT (a second model verified the research — its rulings override the research package where they conflict) ===\n${project.factcheck?.text ?? '(not run)'}${approvedListSection(project.list)}`;
 
   let { text, usage, stopReason } = await claudeGenerate({

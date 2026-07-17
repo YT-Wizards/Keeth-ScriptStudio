@@ -39,14 +39,29 @@ export async function runResearch(project) {
     ? `NOTE: The raw comments (${project.commentAnalysis.totalComments} of them) were already exhaustively analysed in batches — every single comment was read. Below is the consolidated analysis. Treat it as the complete audience-comment evidence base.\n\n${project.commentAnalysis.summary}`
     : '(no comments available)';
 
-  const prompt = template
-    .replace('[PASTE THE VIDEO TITLE HERE]', project.title)
-    .replace(
-      '[PASTE ONE OR MORE COMPETITOR VIDEO SCRIPTS OR TRANSCRIPTS HERE.]',
-      buildCompetitorSection(project)
-    )
-    .replace('[PASTE ALL AVAILABLE AUDIENCE COMMENTS OR CSV COMMENT DATA HERE.]', commentsSection)
-    + buildNewsSection(project);
+  // The prompt is user-editable (Iren tweaks it), so placeholder wording can
+  // drift — match loosely and fall back to appending a clearly-labelled
+  // section rather than silently dropping an input.
+  const inputs = [
+    { re: /\[PASTE THE VIDEO TITLE HERE\]/i, value: project.title, label: 'VIDEO TITLE' },
+    {
+      re: /\[PASTE ONE OR MORE COMPETITOR VIDEO SCRIPTS[^\]]*\]/i,
+      value: buildCompetitorSection(project),
+      label: 'COMPETITOR SCRIPTS / TRANSCRIPTS',
+    },
+    {
+      re: /\[PASTE ALL AVAILABLE AUDIENCE COMMENTS[^\]]*\]/i,
+      value: commentsSection,
+      label: 'AUDIENCE COMMENTS',
+    },
+  ];
+  let prompt = template;
+  const appended = [];
+  for (const input of inputs) {
+    if (input.re.test(prompt)) prompt = prompt.replace(input.re, () => input.value);
+    else appended.push(`\n\n=== ${input.label} (input section not found in prompt template — supplied here) ===\n${input.value}`);
+  }
+  prompt += appended.join('') + buildNewsSection(project);
 
   // Phase 1 — synthesis. On very long prompts Gemini reliably SKIPS the search
   // tool (verified empirically), so grounding happens in phase 2 instead.

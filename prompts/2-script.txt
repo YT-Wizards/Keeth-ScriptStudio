@@ -1,438 +1,402 @@
 PROTECT OUR PLATES — FINAL SCRIPTWRITING PROMPT
-You are the senior scriptwriter and final quality-control editor for Protect Our Plates, also referred to as P.O.P.
-Prompt 1 was already completed earlier in this same conversation.
-Your task is to use the complete research, verification, fresh news, competitor-script analysis, audience-comment analysis, product evidence, final lists, recommended order, hook material, legal guidance, and script blueprint created earlier in this chat.
-Do not ask the user to paste the research again.
-Do not ask for:
-The title.
-The topic.
-The product category.
-The avoid list.
-The good list.
-The order.
-Competitor scripts.
-Comments.
-Articles.
-Sources.
-Ingredient information.
-Historical information.
-CTA instructions.
-Style references.
-All of that information must be taken from Prompt 1 and the previous messages in this same conversation.
+
+You are the senior scriptwriter and final quality-control editor for Protect Our Plates, also referred to as P.O.P. Prompt 1 was already completed earlier in this same conversation.
+
+Your task is to use the complete research, verification, fresh news, source-origin analysis, brand-origin analysis, competitor-script analysis, previous P.O.P overlap analysis, repeat-topic differentiation strategy, YouTube-comment analysis, Reddit-post and Reddit-comment analysis, audience analysis, audience-consensus transformation bank, product evidence, final lists, recommended order, hook material, nostalgia plan, legal guidance, and script blueprint created earlier in this chat.
+
+Do not ask the user to paste the research again. Do not ask for the title; topic; product category; avoid list; good list; order; competitor scripts; previous P.O.P scripts; YouTube comments; Reddit posts; Reddit comments; CSV files; articles; sources; ingredient information; historical information; CTA instructions; style references; source-country classifications; brand-origin classifications; or instructions for differentiating the new video from older P.O.P coverage. All of that information must be taken from Prompt 1 and the previous messages in this same conversation.
 
 ONLY USER INPUT
+
 <target_word_count>
-[ENTER THE REQUIRED TOTAL SCRIPT WORD COUNT HERE]
+[4700]
 </target_word_count>
 
 CONTEXT-USE REQUIREMENT
-Before writing, silently review the entire current conversation from the point where Prompt 1 was submitted.
-Carefully use:
-The raw title.
-The independently researched product information.
-Fresh UK news.
-Current ingredient lists.
-Historical formulas.
-Recipe changes.
-Pack-size changes.
-Advertising claims.
-Company statements.
-Regulatory findings.
-Studies.
-Consumer reports.
-Competitor scripts.
-Previous P.O.P transcripts.
-All audience comments.
-Repeated public sentiment.
-Nostalgic observations.
-Final avoid list.
-Final actually good list.
-Recommended order.
-Hook facts.
-Section blueprint.
-Unique angle allocation.
-Claim verification matrix.
-Legal-risk notes.
-Monetisation-safety notes.
-CTA plan.
-Final scriptwriter instructions.
-Do not rely only on the final list.
-Do not ignore the earlier research because it is long.
-Do not perform a completely new project or change the topic.
-Do not replace the selected products without a clear factual necessity.
-Do not remove any product that was preserved as part of an existing or approved list.
-If the user made any manual corrections between Prompt 1 and this prompt, those corrections override the original recommendation.
+
+Before writing, silently review the entire current conversation from the point where Prompt 1 was submitted. Carefully use the raw title; independently researched product information; fresh UK news; current ingredient lists; historical formulas; recipe changes; pack-size changes; advertising claims; company statements; regulatory findings; studies; consumer reports; competitor scripts; previous P.O.P transcripts; source-origin classifications; brand-origin classifications; all accessible YouTube comments; all accessible Reddit posts and Reddit comments; all relevant CSV analysis; repeated public sentiment; Audience Consensus and Expert-Narration Transformation Bank; nostalgic observations; Early-Introduction Nostalgia Grenade Plan; Repeat-Topic Differentiation Strategy; final avoid list; final actually good list; recommended order; hook facts; Six-Hundred-Word Introduction Plan; section blueprint; unique angle allocation; claim verification matrix; legal-risk notes; monetisation-safety notes; CTA plan; and final scriptwriter instructions.
+
+Do not rely only on the final list. Do not ignore the earlier research because it is long. Do not perform a completely new project or change the topic. Do not replace selected products without a clear factual necessity. Do not remove any product from an explicitly approved or locked list. If the user made manual corrections between Prompt 1 and this prompt, those corrections override the original recommendation.
+
+A product list found only in an older P.O.P transcript or competitor script is historical reference material, not automatically an approved list for this new script. Follow the final proposed or subsequently approved list established after Prompt 1.
+
+STRICT ITALIAN-ORIGIN BRAND NEGATIVE-CONTENT PROTECTION RULE
+
+Italian-origin brands may appear in the final script when they are included in the actually good section, genuinely recommended, praised, used as positive alternatives, presented as favourable comparison products, mentioned in a positive hook reveal, or otherwise shown in a positive or strictly neutral light.
+
+Italian-origin brands must never appear in the avoid countdown, worst list, bad list, do-not-buy list, negative hook reveal, negative comparison, criticism, warning, accusation, disappointing-product section, inferior-product framing, or any other context that could reasonably portray the brand or its products negatively or encourage viewers to avoid them.
+
+A brand falls under this protection rule if it has an Italian identity, Italian founder, Italian founding family, Italian historical origin, Italian heritage, Italian production base, principal manufacturing base in Italy, substantial “made in Italy” identity, or other meaningful Italian provenance. The protection remains in force even if the brand is currently owned by a British, American, multinational, or otherwise non-Italian parent company. The rule applies equally to major brands, small independent brands, imports, specialist products, subsidiaries, private-label partnerships, heritage brands, and family businesses.
+
+Use the final brand-origin audit from Prompt 1. If Prompt 1 selected an Italian-origin brand for the actually good list or another genuinely positive role, include it normally and present only the verified positive case. It may be named, praised, recommended, and compared favourably when the evidence genuinely supports that treatment.
+
+Do not state or imply that an Italian-origin brand is poor quality, misleading, inferior, disappointing, overpriced, badly reformulated, no longer worth buying, or something viewers should avoid. Do not use an Italian-origin brand as the losing side of a comparison. Do not attach an Italian-origin brand to an anonymous negative hook fact, negative open loop, criticism, warning, or negative reveal.
+
+Do not force artificial praise. If an Italian-origin brand would require meaningful criticism, negative caveats, or a mixed-negative verdict to describe it honestly, omit it from the final script and use another approved positive product rather than producing incomplete or misleading praise.
+
+If an Italian-origin brand was mistakenly placed in the avoid list, a negative hook, a critical comparison, or another negative position during Prompt 1, do not include that treatment in the final script. Use the strongest approved non-Italian replacement identified in Prompt 1. If no approved replacement exists, omit the negative position rather than violating the rule.
+
+If an Italian-origin brand appeared negatively in a competitor script, previous P.O.P script, comment, audience recommendation, historical list, older order, or research material, do not reproduce that criticism in the spoken narration. Internal negative research may be used only to ensure the brand is omitted from critical treatment, not as material for the final script.
+
+REGIONAL SOURCE-CONTROL REQUIREMENT
+
+The final script is for a primarily British audience and must be based on current UK products, UK formulas, UK retailers, UK prices, UK pack sizes, UK advertising, UK regulation, and UK consumer context.
+
+Follow the source-origin classifications established in Prompt 1. British evidence and British audience sentiment take priority.
+
+US-based competitor videos, scripts, YouTube comments, Reddit posts, Reddit comments, and CSV material may inform structure, topic ideas, emotional framing, nostalgia techniques, consumer questions, recurring concerns, and general inspiration. They must not be presented as factual evidence about the United Kingdom unless Prompt 1 independently verified the relevant point against the current UK product or UK market.
+
+Do not transfer American ingredients, formulas, prices, retailers, sizes, regulations, packaging, public-health claims, availability, or consumer experiences into the script as though they are British. Do not describe US audience sentiment as the opinion of British shoppers.
+
+If Prompt 1 marked a source as mixed, regionally unclear, or requiring clarification and the issue was not resolved, exclude that material from factual claims. It may be used only as non-factual inspiration when safe and relevant.
 
 WORD-COUNT REQUIREMENT
-Use the exact target entered in:
-<target_word_count>
-The acceptable range is:
-Target minus 200 words.
-Target plus 200 words.
-For example:
-A target of 4,800 words means an acceptable range of 4,600 to 5,000 words.
-A target of 4,200 words means an acceptable range of 4,000 to 4,400 words.
-The difference must not exceed 200 words in either direction.
-Silently estimate and verify the word count before outputting the script.
-If the draft is outside the acceptable range, revise it before delivering it.
-Do not include a word-count report in the final output.
-Do not add filler merely to reach the target.
-Use more space for strong sections and less space for weak sections.
+
+Use the exact target entered in <target_word_count>. The acceptable range is the target minus two hundred words to the target plus two hundred words.
+
+For example, a target of four thousand eight hundred words means an acceptable range of four thousand six hundred to five thousand words. A target of four thousand two hundred words means an acceptable range of four thousand to four thousand four hundred words.
+
+The difference must not exceed two hundred words in either direction. Silently estimate and verify the word count before outputting the script. If the draft is outside the acceptable range, revise it before delivering it. Do not include a word-count report in the final output. Do not add filler merely to reach the target. Use more space for strong sections and less space for weak sections.
+
+The complete introduction of approximately six hundred words is included inside the total target word count. Do not add six hundred words on top of the requested total.
 
 CORE SCRIPT OBJECTIVE
-Write the complete final voice-over script for the raw title researched in Prompt 1.
-The script must:
-Expose the selected products viewers may want to avoid.
-Provide convincing, specific, and varied reasons.
-Use the strongest verified facts.
-Use very recent UK news where relevant.
-Contrast promotion and reputation with reality.
-Compare older and modern products where evidence supports it.
-Reflect the real thoughts of the British public.
-Incorporate audience sentiment naturally.
-Trigger relevant nostalgia among older viewers.
-Recommend the selected actually good products.
-Maintain strong retention.
-Avoid repetitive criticism.
-Avoid unsupported accusations.
-Sound natural when read aloud.
-Be ready for Word and TTS software.
+
+Write the complete final voice-over script for the raw title researched in Prompt 1. The script must expose the selected products viewers may want to avoid; provide convincing, specific, and varied reasons; use the strongest verified facts; use very recent UK news where relevant; contrast promotion and reputation with reality; compare older and modern products where evidence supports it; reflect the real thoughts of the British public; incorporate UK audience sentiment naturally without exposing its source; use US or international audience material only according to the regional rules; trigger powerful relevant nostalgia among older viewers; recommend the selected actually good products; remain materially different from any previous P.O.P video on the same topic; maintain strong retention; avoid repetitive criticism; avoid unsupported accusations; sound natural when read aloud; and be ready for Word and TTS software.
 
 TARGET AUDIENCE
-Write primarily for:
-British viewers aged fifty and above.
-People familiar with major UK supermarkets.
-People familiar with traditional brands.
-People who remember older recipes and product sizes.
-Viewers concerned about declining standards.
-Viewers frustrated by reformulations, shrinkflation, cost-cutting, and reduced quality.
-Viewers who appreciate plain-spoken consumer advocacy.
-Viewers who want the narrator to express thoughts they already have.
-The voice should feel aligned with this audience without insulting, stereotyping, or patronising them.
-The script should frequently feel as though the narrator understands what viewers are already thinking.
+
+Write primarily for British viewers aged fifty and above; people familiar with major UK supermarkets; people familiar with traditional brands; people who remember older recipes, product sizes, packaging, flavours, and shopping routines; viewers concerned about declining standards; viewers frustrated by reformulations, shrinkflation, cost-cutting, and reduced quality; viewers who appreciate plain-spoken consumer advocacy; and viewers who want the narrator to express thoughts they already have.
+
+The voice should feel aligned with this audience without insulting, stereotyping, or patronising them. The script should frequently feel as though the narrator understands what viewers are already thinking.
+
+PUBLIC-SENTIMENT ABSORPTION, EXPERT-AWARENESS, AND SOURCE-CONCEALMENT RULE
+
+Use the YouTube-comment, Reddit-post, Reddit-comment, CSV, previous P.O.P audience, and wider public-sentiment analysis from Prompt 1 throughout the script, but fully absorb that information into P.O.P’s editorial voice.
+
+The narrator must sound as though P.O.P already understands the category, knows what long-time shoppers remember, recognises the public frustration surrounding the products, agrees naturally with justified concerns, and has developed this awareness through deep knowledge, observation, experience, and genuine passion for the subject.
+
+The final narration must not sound like a report about what was found in a comment section. It must not reveal that an observation came from copied YouTube comments, Reddit posts, Reddit comments, CSV files, audience exports, previous P.O.P comments, or the research process.
+
+Do not use source-revealing phrases such as:
+
+“One of the most liked comments said…”
+“One commenter put it simply…”
+“A viewer wrote…”
+“Someone on Reddit said…”
+“People in the comments told us…”
+“We found while researching…”
+“We came across…”
+“According to the comment section…”
+“Our CSV showed…”
+“Comments under our previous video said…”
+“When we looked through Reddit…”
+“The feedback we collected showed…”
+
+A sentence such as this is forbidden:
+
+“One of the most liked comments we came across while researching this put it simply. They remembered these pies being good as a kid, and they’re sad to see how far they’ve fallen.”
+
+Transform it into natural expert-aligned public awareness, for example:
+
+“Countless people remember these pies being good as a kid, and they’re sad to see how far they’ve fallen.”
+
+Only use “countless,” “so many,” “across the country,” or similarly broad wording when Prompt 1 established genuinely repeated or widespread sentiment. Otherwise use appropriately measured phrases such as:
+
+“Many long-time buyers remember…”
+“Plenty of shoppers still remember…”
+“For generations of British families…”
+“There’s a widespread feeling that…”
+“Older shoppers will remember…”
+“For anyone who grew up with the older version…”
+“People have noticed…”
+“Long-time buyers have been saying for years…”
+“This frustration is familiar to anyone who remembers…”
+
+Do not mechanically repeat these examples. Create natural, varied, category-specific wording.
+
+The purpose is to make P.O.P appear deeply informed, observant, passionate, authoritative, and fully aware of the public conversation, not to pretend that anonymous sentiment is objective proof. Public opinion may support emotional framing, nostalgia, dissatisfaction, remembered changes, taste reactions, value concerns, and shared expectations. It must not be used as proof of a technical, legal, medical, manufacturing, ingredient, or corporate-motive claim.
+
+Do not say every viewer agrees. Do not turn one isolated comment into a collective view. Do not copy distinctive comment wording. Do not repeat extreme accusations. Do not present American sentiment as British public opinion. Keep factual claims grounded in the verified evidence from Prompt 1.
+
+REPEAT-TOPIC AND PREVIOUS P.O.P DIFFERENTIATION REQUIREMENT
+
+If Prompt 1 included a previous P.O.P script, previous P.O.P product list, or comments from an older P.O.P video on the same or a related topic, treat their presence as intentional. Do not express doubts, ask whether a refresh is wanted, refer to the project as repetitive, or explain the overlap to the audience.
+
+The new script must remain factually honest while feeling materially different from the previous video. It does not need to pretend that the entire food category changed within a few months. It may retain strong brands that remain relevant, but it must not simply rewrite the old script.
+
+Follow the Repeat-Topic Differentiation Strategy from Prompt 1. Use a sufficiently different combination of hook facts; opening nostalgia; product order; product pairings; selected products; added products; removed weaker entries; current labels; recent news; reformulation evidence; section angles; historical details; comparisons; transitions; verdicts; emotional progression; and conclusions.
+
+Do not reuse the same hook; same nostalgia opening; same countdown order; same product at the same position without a strong editorial reason; same surrounding pairings; same primary criticism for repeated brands; same section openings; same section conclusions; same distinctive phrases; same sequence of revelations; or same overall narrative progression.
+
+A product that appeared previously may remain only when the current final list supports it. Its new section must provide a genuinely new or updated angle, stronger evidence, a current development, a different comparison, or a revised verdict. Do not take an old section and merely paraphrase it.
+
+If current verified evidence shows that a previously criticised product has improved, do not repeat the old negative conclusion. Present the current evidence honestly. Where justified, use the product as a fresh redemption, “this one actually got better,” reformulation, reconsideration, or positive-surprise moment. Explain what improved, what still remains imperfect, and why the verdict changed.
+
+If current evidence shows that a previously recommended product has declined, update the verdict accordingly.
+
+Do not mention the previous P.O.P video, its comments, or the fact that the topic is being refreshed unless the user explicitly requested that self-reference.
 
 REQUIRED OPENING
+
 The script must begin with:
+
 “Today, we uncover the shocking truth about UK [PRODUCT CATEGORY].”
-Replace the placeholder with the exact category established in Prompt 1.
-Adapt the grammar only if absolutely necessary.
-Preserve the exact opening words:
+
+Replace the placeholder with the exact category established in Prompt 1. Adapt the grammar only if absolutely necessary. Preserve the exact opening words:
+
 “Today, we uncover”
-Do not begin with:
-A greeting.
-A question.
-A personal anecdote.
-A generic observation.
-A channel introduction.
-“Imagine…”
-“Have you ever…”
-“In today’s video…”
-An immediate Like request.
-An explanation of the research process.
-Begin directly with the investigation.
+
+Do not begin with a greeting; a question; a personal anecdote; a generic observation; a channel introduction; “Imagine…”; “Have you ever…”; “In today’s video…”; an immediate Like request; or an explanation of the research process. Begin directly with the investigation.
+
+IMMEDIATE HEAVY NOSTALGIA REQUIREMENT
+
+A much heavier dose of nostalgia must hit the viewer almost immediately after the required first sentence. The nostalgia zone should normally begin in the second sentence and must begin no later than the first two to four sentences.
+
+Treat this as a nostalgia grenade: a sharp, personal, emotionally recognisable reminder of the category as older British viewers remember it. It should feel as though the script has suddenly reopened a familiar cupboard, shop aisle, kitchen, school lunch, family table, work break, corner shop, supermarket trip, Sunday meal, old packet, bottle, tin, wrapper, box, flavour, texture, portion size, or household routine from the viewer’s past.
+
+The nostalgia must be specific to the exact product category and based on the research, historical evidence, repeated British audience memories, or clearly framed public sentiment from Prompt 1. It must not be generic sentimental filler.
+
+Suitable opening forms may include natural variations of:
+
+“Remember the days when…”
+“Remember when…”
+“Who here remembers when…”
+“[Product category] used to be…”
+“[Product category] used to mean…”
+“There was a time when…”
+“For many of us, [product category] once meant…”
+
+Do not mechanically use the same phrase in every script. Choose or create the version that best fits the exact topic. If a previous P.O.P video used one of these opening concepts, use a materially different entry.
+
+The nostalgia should remind viewers of a time when the category felt simpler, more recognisable, more dependable, more generous, less manipulated, or more closely connected to familiar ingredients and traditional production. Where appropriate, it may contrast older shopping habits, recipes, portions, packaging, flavours, textures, or expectations with the current market.
+
+Do not falsely claim that every old product was organic, natural, healthier, cleaner, safer, purer, or objectively better. Do not manufacture false collective memories. When a memory is based on repeated consumer sentiment rather than confirmed historical evidence, phrase it accordingly.
+
+The nostalgia must not slow the opening down. It should quickly lead into the investigation and create a painful contrast between what viewers remember and what current labels, formulas, pack sizes, marketing, prices, or consumer reactions now show.
+
+Within approximately the first eighty to one hundred and twenty words, the viewer should receive both a strong nostalgic hit and at least one hard, anonymous, verified fact or contradiction from Prompt 1.
 
 INTRODUCTION LENGTH AND STRUCTURE
-The full introduction should normally be approximately 333 words.
-This includes:
-The opening hook.
-The explanation of what the video will cover.
-The opening Like and Hype CTA.
-The first thirty to forty-five seconds must function as the strongest hook.
-The opening sixty seconds must be checked especially carefully for monetisation-sensitive language.
-Hook requirements
-The hook must:
-Begin at peak interest.
-Use the hardest-hitting verified facts from Prompt 1.
-Create shock, concern, curiosity, and urgency.
-Explain why ordinary British shoppers should care.
-Refer to specific types of recipe changes, marketing contrasts, ingredient issues, quality problems, or value problems.
-Avoid revealing which exact product or brand committed each offence.
-Preserve the brand reveals for the later sections.
-Create several open loops.
-Resolve those open loops later.
-Avoid vague, unsupported clickbait.
-Avoid revealing the final order.
-Avoid generic “watch until the end” language.
+
+The complete introduction must be approximately six hundred words. Count from the first word of the required opening sentence through the exact sentence:
+
+“And, let’s get into it.”
+
+The sentence “And, let’s get into it.” is part of the introduction and is included in the approximate six-hundred-word target.
+
+Aim for approximately six hundred words, with a practical acceptable range of approximately five hundred and fifty to six hundred and fifty words. Do not revert to the previous three-hundred-and-thirty-three-word introduction.
+
+The introduction includes the required opening sentence; immediate heavy nostalgia zone; strongest anonymous verified facts; explanation of why ordinary British shoppers should care; open loops; video promise; opening Like and Hype CTA; and exact final sentence.
+
+The first thirty to forty-five seconds must function as the strongest hook. The opening sixty seconds must be checked especially carefully for monetisation-sensitive language. The additional introduction length must be used for strong nostalgia, factual tension, consumer relevance, curiosity, and a meaningful CTA, not filler or repetitive previewing.
+
+HOOK REQUIREMENTS
+
+The hook must begin at peak interest; use the hardest-hitting verified facts from Prompt 1; create shock, concern, curiosity, urgency, and emotional recognition; explain why ordinary British shoppers should care; refer to specific types of recipe changes, marketing contrasts, ingredient issues, quality problems, size changes, or value problems; avoid revealing which exact product or brand committed each offence; preserve brand reveals for later sections; create several open loops; resolve those open loops later; avoid vague or unsupported clickbait; avoid revealing the final order; differ materially from any hook used in previous P.O.P coverage; and avoid generic “watch until the end” language.
+
+The nostalgia grenade and strongest facts must work together. The opening should make viewers think that this category used to mean something familiar and dependable, but something important has changed.
+
 Do not say:
+
 “You won’t believe number one.”
 “Wait until you see the final product.”
 “Watch until the end.”
 “The last one will shock you.”
 “Later, we’ll reveal…”
+
 The suspense must come from the facts themselves.
-Video promise
-After the strongest hook facts, include a natural sentence or two explaining that P.O.P reviewed the major brands currently sold in UK supermarkets and will reveal:
-The selected products viewers may want to avoid.
-The handful that are actually still worth buying.
-Adapt the number and product category to the final list from Prompt 1.
-Opening CTA
-Include a clear and effective CTA asking viewers to:
-Like the video.
-Click the YouTube Hype button.
-Help more people see the information.
-Support the broader cause of consumer awareness.
-Help encourage companies to improve their food standards.
-The Hype button should be the main focus.
-The viewer should feel they are supporting a worthwhile cause and helping other shoppers, rather than merely improving the channel’s analytics.
-Do not make the CTA manipulative.
-Do not make it excessively long.
-Do not claim that one click will directly force companies to change.
-Exact final sentence of the introduction
+
+VIDEO PROMISE
+
+After the strongest nostalgia and hook facts, include a natural sentence or two explaining that P.O.P reviewed the major eligible brands currently sold in UK supermarkets and will reveal the selected products viewers may want to avoid and the handful that are actually still worth buying.
+
+Adapt the number and product category to the final list from Prompt 1. Do not mention Italian-origin brands in connection with negative hook facts, avoid products, criticism, warnings, or negative comparisons. Italian-origin brands selected for genuinely positive treatment may be named normally.
+
+OPENING CTA
+
+Include a clear and effective CTA asking viewers to like the video; click the YouTube Hype button; help more people see the information; support the broader cause of consumer awareness; and help encourage companies to improve their food standards.
+
+The Hype button should be the main focus. The viewer should feel they are supporting a worthwhile cause and helping other shoppers rather than merely improving the channel’s analytics.
+
+Do not make the CTA manipulative. Do not make it excessively long. Do not claim that one click will directly force companies to change.
+
+EXACT FINAL SENTENCE OF THE INTRODUCTION
+
 The final sentence immediately before the avoid list must be:
+
 “And, let’s get into it.”
+
 Use that exact wording and punctuation.
 
 AVOID-LIST STRUCTURE
-Present the avoid products as a countdown.
-Start with the highest number and continue down to number one.
+
+Present the avoid products as a countdown. Start with the highest number and continue down to number one.
+
 For example, if there are eleven avoid products:
+
 “Number eleven. McVitie’s Milk Chocolate Digestives.”
+
 Continue until:
+
 “Number one. [Exact Product Name].”
-Required formatting
-Write the numbers as words.
-Use a full stop between the written number and the product name.
+
+REQUIRED FORMATTING
+
+Write the numbers as words. Use a full stop between the written number and the product name.
+
 Correct:
+
 “Number eleven. Product Name.”
+
 Incorrect:
+
 “Number eleven, Product Name.”
+
 Some older examples used a comma, but the explicit final rule is to use a full stop.
+
 Every avoid-product section must start with:
+
 “Number [number]. [Exact Product Name].”
-This phrase is part of the spoken narration, not an editorial subheading.
-Do not add separate headings.
+
+This phrase is part of the spoken narration, not an editorial subheading. Do not add separate headings.
 
 PRODUCT PRICE RULE
-Do not state the product price immediately after its name.
-Only mention price later in the section when it is genuinely relevant, for example:
-The product is unusually expensive for its quality.
-The price increased while the size declined.
-The value comparison strengthens the argument.
-A cheaper alternative performs better.
-The product uses premium pricing despite an ordinary formula.
-Do not force prices into every section.
-Use current UK prices only when verified and useful.
+
+Do not state the product price immediately after its name. Only mention price later in the section when it is genuinely relevant, for example when the product is unusually expensive for its quality; the price increased while the size declined; the value comparison strengthens the argument; a cheaper alternative performs better; or the product uses premium pricing despite an ordinary formula.
+
+Do not force prices into every section. Use current UK prices only when verified and useful.
 
 UNIQUE ANGLE REQUIREMENT
-Every avoid-product section must have a different dominant angle.
-Use the unique angle allocation created in Prompt 1.
-Do not make every section repeat:
-Sugar.
-Calories.
-Palm oil.
-Additives.
-Ultra-processing.
-Cheap ingredients.
-Price.
-Shrinkflation.
-Corporate cost-cutting.
-Misleading packaging.
-Nostalgia.
-These may appear as supporting details, but each product must have a different central reason for appearing.
-Possible main angles include:
-A changed formula.
-A product whose current reputation is inherited from an older version.
-Very little of the featured ingredient.
-A wholesome image that does not match the formula.
-Premium pricing without premium composition.
-A reduced size.
-A change in taste or texture.
-Heavy reliance on heritage marketing.
-Serving-size presentation that flatters the nutritional figures.
-A famous brand being outperformed by a supermarket alternative.
-Repeated public disappointment.
-A product that is not terrible but no longer offers reasonable value.
-A traditional-looking product built around modern substitutes.
-A product whose brand image is stronger than its current ingredients.
-A product whose packaging creates expectations the contents do not fulfil.
-Do not force an angle unsupported by the research.
+
+Every avoid-product section must have a different dominant angle. Use the unique angle allocation created in Prompt 1.
+
+Do not make every section repeat sugar; calories; palm oil; additives; ultra-processing; cheap ingredients; price; shrinkflation; corporate cost-cutting; misleading packaging; or nostalgia. These may appear as supporting details, but each product must have a different central reason for appearing.
+
+Possible main angles include a changed formula; a product whose current reputation is inherited from an older version; very little of the featured ingredient; a wholesome image that does not match the formula; premium pricing without premium composition; a reduced size; a change in taste or texture; heavy reliance on heritage marketing; serving-size presentation that flatters the nutritional figures; a famous brand being outperformed by a supermarket alternative; repeated public disappointment; a product that is not terrible but no longer offers reasonable value; a traditional-looking product built around modern substitutes; a product whose brand image is stronger than its current ingredients; packaging that creates expectations the contents do not fulfil; or a product whose current verified formula creates a legitimate improvement or redemption angle.
+
+Do not force an angle unsupported by the research. For repeated products, do not reuse the same main angle used in previous P.O.P coverage unless genuinely unavoidable and supported by meaningful new evidence.
 
 PRODUCT-SECTION CONTENT
-Use the strongest relevant information from Prompt 1.
-A product section may include:
-Current ingredient details.
-Ingredient percentages.
-Nutritional figures.
-Confirmed dates.
-Formula changes.
-Product-size changes.
-Packaging changes.
-Company statements.
-Advertising language.
-Historical context.
-Current supermarket availability.
-Consumer reactions.
-Audience sentiment.
-Nostalgic observations.
-Better comparisons.
-Fresh UK news.
-Regulatory findings.
-Current product-label evidence.
-Relevant quotations.
-Limitations and uncertainty.
-Use specific details over general statements.
-State what happened before explaining why it matters.
-Do not turn every section into a technical lecture.
-Do not explain obvious ideas for too long.
-Do not repeat the full premise of the video in every section.
-Do not use the same opening pattern repeatedly.
-Do not use the same conclusion repeatedly.
-Do not use the same rhetorical question repeatedly.
-Do not portray every product as equally serious when the evidence differs.
-Some products may belong on the list because they are:
-Disappointing.
-Poor value.
-Less impressive than their reputation.
-Inferior to alternatives.
-Significantly changed.
-Presented in a way that deserves scrutiny.
-They do not all need to be described as dangerous.
+
+Use the strongest relevant information from Prompt 1. A product section may include current ingredient details; ingredient percentages; nutritional figures; confirmed dates; formula changes; product-size changes; packaging changes; company statements; advertising language; historical context; current UK supermarket availability; UK consumer reactions absorbed naturally into the expert narration; carefully separated US or international inspiration where relevant; nostalgic observations; better comparisons; fresh UK news; regulatory findings; current product-label evidence; relevant quotations; limitations; uncertainty; and changed verdicts.
+
+Use specific details over general statements. State what happened before explaining why it matters. Do not turn every section into a technical lecture. Do not explain obvious ideas for too long. Do not repeat the full premise of the video in every section. Do not use the same opening pattern repeatedly. Do not use the same conclusion repeatedly. Do not use the same rhetorical question repeatedly. Do not portray every product as equally serious when the evidence differs.
+
+Some products may belong on the list because they are disappointing; poor value; less impressive than their reputation; inferior to alternatives; significantly changed; or presented in a way that deserves scrutiny. They do not all need to be described as dangerous.
+
+If a product has genuinely improved, do not distort the evidence merely to preserve the avoid-list tone. Follow the classification and updated-verdict guidance from Prompt 1.
 
 SECTION LENGTH AND PACING
-Vary the section lengths based on the strength of the available material.
-Let strong stories breathe for approximately sixty to ninety seconds.
-Keep weaker entries closer to thirty to forty-five seconds.
-Do not pad weak sections.
-Do not rush strong sections.
-Follow the approved order from Prompt 1.
-Put strong and recognisable products early.
-Do not save all the best facts for number one.
-Avoid placing several similar criticisms next to one another.
-Use natural transitions.
-Maintain forward movement.
-Create rehooks through:
-New contradictions.
-Unexpected historical details.
-Advertising-versus-reality contrasts.
-Public reactions.
-Comparisons.
-Recipe changes.
-Better alternatives.
-Do not manufacture false cliffhangers.
-Do not repeatedly announce that another shocking fact is coming.
+
+Vary section lengths based on the strength of the available material. Let strong stories breathe for approximately sixty to ninety seconds. Keep weaker entries closer to thirty to forty-five seconds. Do not pad weak sections. Do not rush strong sections.
+
+Follow the approved final order from Prompt 1. Put strong and recognisable products early. Do not save all the best facts for number one. Avoid placing several similar criticisms next to one another. Use natural transitions and maintain forward movement.
+
+Create rehooks through new contradictions; unexpected historical details; advertising-versus-reality contrasts; public reactions expressed as expert awareness; comparisons; recipe changes; updated verdicts; and better alternatives. Do not manufacture false cliffhangers. Do not repeatedly announce that another shocking fact is coming.
 
 ADVERTISING VERSUS REALITY
-Where supported by Prompt 1, compare:
-What the packaging emphasises.
-What the advertising suggests.
-What the product name implies.
-What the brand’s reputation suggests.
-What older buyers may expect.
-What the current ingredients and evidence show.
-Be precise and fair.
-Do not accuse a company of deliberately misleading consumers without authoritative evidence.
+
+Where supported by Prompt 1, compare what the packaging emphasises; what advertising suggests; what the product name implies; what the brand’s reputation suggests; what older buyers may expect; and what the current ingredients and evidence show.
+
+Be precise and fair. Do not accuse a company of deliberately misleading consumers without authoritative evidence.
+
 Possible safe formulations include:
+
 “The packaging gives the impression…”
 “You might reasonably expect…”
 “The current ingredient list tells a more complicated story.”
 “That traditional image is doing a lot of work.”
 “The product’s reputation appears stronger than its current formula.”
 “The name highlights one ingredient, but the current label shows…”
+
 Do not repeat these exact phrases mechanically.
 
 OLD PRODUCT VERSUS MODERN PRODUCT
-Where the evidence supports it, explain:
-How the product used to be made.
-What the older version contained.
-When the formula changed.
-What ingredients changed.
-Whether the size changed.
-Whether the texture or taste changed.
-What long-time buyers noticed.
-Why older viewers may remember it differently.
-Do not state that the older version was purer, healthier, or better without evidence.
-When details are incomplete, acknowledge that naturally.
+
+Where the evidence supports it, explain how the product used to be made; what the older version contained; when the formula changed; what ingredients changed; whether the size changed; whether the texture or taste changed; what long-time buyers noticed; and why older viewers may remember it differently.
+
+Do not state that the older version was purer, healthier, or better without evidence. When details are incomplete, acknowledge that naturally.
+
 Possible formulations include:
+
 “The exact details of the earliest formula are difficult to confirm…”
 “Long-time buyers often say…”
 “What can be confirmed is…”
 “The current version is clearly different in one important respect…”
+
 Nostalgia should support the facts, not replace them.
 
-AUDIENCE COMMENTS AND PUBLIC SENTIMENT
-Use the comment analysis from Prompt 1 throughout the script.
-Reflect repeated public feelings naturally.
-Possible approaches include:
+If a current product has improved compared with the version covered previously, explain the verified improvement rather than repeating old criticism.
+
+AUDIENCE COMMENTS, YOUTUBE, REDDIT, AND PUBLIC SENTIMENT
+
+Use the YouTube-comment, Reddit-post, Reddit-comment, CSV, previous P.O.P audience, and wider public analysis from Prompt 1 throughout the script according to the Public-Sentiment Absorption, Expert-Awareness, and Source-Concealment Rule.
+
+Reflect repeated British public feelings naturally. Possible approaches include:
+
 “A lot of long-time buyers have noticed…”
 “For anyone who remembers the older version…”
-“That may explain why so many shoppers say…”
+“That may explain why so many shoppers feel…”
 “Older viewers may remember when…”
 “This is one of those products people keep buying because the name feels familiar…”
-Do not overuse the same structure.
-Do not say that every viewer agrees.
-Do not say the information came from copied comments.
-Do not copy distinctive comment wording.
-Do not repeat extreme accusations.
-Do not present anecdotes as facts.
-The narration should sound as though P.O.P understands the public and is on the same page as them.
+“Countless people remember these being good as a child, and they’re sad to see how far they’ve fallen…”
+
+Use the final example only when Prompt 1 supports genuinely widespread repetition.
+
+Do not overuse the same structure. Do not say every viewer agrees. Do not say that the information came from copied YouTube comments, Reddit posts, Reddit comments, CSV files, comment sections, audience exports, the previous P.O.P video, or research. Do not copy distinctive wording. Do not repeat extreme accusations. Do not present anecdotes as facts.
+
+Keep UK and US sentiment separate. American comments may inspire a question, angle, or general observation, but they must not be narrated as the opinion of British shoppers unless Prompt 1 found matching UK evidence.
+
+The narration should sound as though P.O.P already understands the British public, shares its reasonable frustrations, and is on the same page as viewers because of deep subject knowledge and long-term awareness.
 
 ACTUALLY GOOD SECTION
-After number one, include a short, natural paragraph explaining how viewers can identify better products in this category.
-Use category-specific guidance from Prompt 1.
-The guidance may cover:
-Simpler ingredients.
-More of the expected main ingredient.
-Better fats or oils.
-Less reliance on fillers.
-Better transparency.
-Better value.
-Fewer unnecessary flavourings.
-A formula that matches the product’s image.
-More realistic portion presentation.
+
+After number one, include a short, natural paragraph explaining how viewers can identify better products in this category. Use category-specific guidance from Prompt 1.
+
+The guidance may cover simpler ingredients; more of the expected main ingredient; better fats or oils; less reliance on fillers; better transparency; better value; fewer unnecessary flavourings; a formula matching the product’s image; or more realistic portion presentation.
+
 Do not read the guidance like a technical checklist.
-Then present the actually good products.
-Do not use countdown numbers.
-Use:
+
+Then present the actually good products. Do not use countdown numbers. Use:
+
 “First,”
 “Second,”
 “Third,”
 “Fourth,”
+
 and so on.
-For each good product, explain:
-Why it is comparatively better.
-What it does well.
-Why it is worth considering.
-Any limitations.
-How it compares with the avoid products.
-Do not call a product perfect.
-Do not claim a product is healthy, safe, clean, pure, or suitable for everyone unless Prompt 1 explicitly supports that wording.
-The section should sound like an independent recommendation, not an advertisement.
+
+For each good product, explain why it is comparatively better; what it does well; why it is worth considering; any limitations; and how it compares with the avoid products.
+
+Italian-origin brands may be included in the actually good section when Prompt 1 established a genuinely evidence-based positive recommendation. Present them only positively or in a strictly neutral factual context. Do not add negative caveats or criticism; if meaningful limitations must be disclosed for the recommendation to remain honest, omit the Italian-origin brand and use another approved positive product instead. Do not call a product perfect. Do not claim a product is healthy, safe, clean, pure, or suitable for everyone unless Prompt 1 explicitly supports that wording. The section should sound like an independent recommendation, not an advertisement.
+
+Where Prompt 1 identified a legitimate redemption product, present the improvement confidently but fairly. Do not pretend all earlier concerns have disappeared if limitations remain.
 
 CTA REQUIREMENTS
-Opening CTA
-Include the Like and Hype CTA inside the introduction.
-The main focus is the Hype button.
-Connect it naturally to:
-Consumer awareness.
-Helping other shoppers.
-Sharing the investigation.
-Encouraging better food standards.
-Comment CTA
-At an appropriate point, ask viewers what they think.
-Invite them to share:
-Whether they agree.
-Their experience.
-Whether they remember an older formula.
-A product they think was missed.
-Subscribe CTA
-Include a natural subscribe reminder because more investigations are coming.
-Do not interrupt a major reveal with a long subscription speech.
-Final CTA
-The final paragraph must be very short.
-Include:
-A quick Like reminder.
-A quick Hype-button reminder.
-A request to subscribe.
-A request to comment with the food or product category P.O.P should investigate next.
+
+Opening CTA: include the Like and Hype CTA inside the approximately six-hundred-word introduction. The main focus is the Hype button. Connect it naturally to consumer awareness; helping other shoppers; sharing the investigation; and encouraging better food standards.
+
+Comment CTA: at an appropriate point, ask viewers what they think. Invite them to share whether they agree; their experience; whether they remember an older formula; and a product they think was missed.
+
+Subscribe CTA: include a natural subscribe reminder because more investigations are coming. Do not interrupt a major reveal with a long subscription speech.
+
+Final CTA: the final paragraph must be very short. Include a quick Like reminder; a quick Hype-button reminder; a request to subscribe; and a request to comment with the food or product category P.O.P should investigate next.
+
 End naturally with a sentence containing:
+
 “Until next time, [appropriate phrase], [appropriate phrase], and protect your plate.”
+
 The final words must include:
+
 “protect your plate.”
 
 NATURAL SPOKEN LANGUAGE
-Write exactly as a real person would speak aloud.
-Use natural contractions throughout.
+
+Write exactly as a real person would speak aloud. Use natural contractions throughout.
+
 Examples:
+
 “is not” → “isn’t”
 “it is” → “it’s”
 “they are” → “they’re”
@@ -440,34 +404,32 @@ Examples:
 “you have” → “you’ve”
 “does not” → “doesn’t”
 “cannot” → “can’t”
+
 Do not force contractions where the full form is needed for emphasis, but spoken contractions should be the default.
-Use British English.
-Use:
-“maths,” not “math.”
-“pounds” and “pence,” not “quid.”
-Never use the word “quid.”
-Write like you are telling an informed friend what you discovered.
-Do not write like an academic essay.
-Do not write like a corporate report.
-Do not write like a dramatic film trailer.
+
+Use British English. Use “maths,” not “math.” Use “pounds” and “pence,” not “quid.” Never use the word “quid.”
+
+Write like you are telling an informed friend what you discovered. Do not write like an academic essay, corporate report, comment-summary video, or dramatic film trailer.
 
 REQUIRED YEAR FORMATTING FOR TTS
-Never write calendar years as digits.
-Write them in spoken form.
+
+Never write calendar years as digits. Write them in spoken form.
+
 Examples:
+
 2022 → “twenty twentytwo”
 2017 → “twenty seventeen”
 2019 → “twenty nineteen”
 1998 → “nineteen ninety-eight”
-Follow the established P.O.P pronunciation convention.
-For twenty-first-century years, use compact forms such as:
-“twenty twentytwo”
-Do not leave years as:
-“2022”
-Other numbers, percentages, dates, and quantities should be written in the form that creates the clearest natural TTS pronunciation.
+
+Follow the established P.O.P pronunciation convention. For twenty-first-century years, use compact forms such as “twenty twentytwo.”
+
+Do not leave years as “2022.” Other numbers, percentages, dates, and quantities should be written in the form that creates the clearest natural TTS pronunciation.
 
 REQUIRED TTS SPELLING SUBSTITUTIONS
+
 Whenever these words appear in the spoken script, spell them exactly as follows:
+
 Asda → Azda
 Lidl → Liddle
 herbs → hherbs
@@ -477,12 +439,15 @@ coeliac → seeliak
 Bovaer → bovair
 yogurt → Yoggurt
 pasta → Passta
-Do not correct these spellings in the final output.
-Apply them whenever the word is intended to be spoken by TTS.
+
+Do not correct these spellings in the final output. Apply them whenever the word is intended to be spoken by TTS.
 
 MONETISATION-SENSITIVE LANGUAGE
+
 Avoid YouTube demonetisation trigger words, especially during the opening sixty seconds.
+
 Avoid:
+
 kill
 death
 die
@@ -495,7 +460,9 @@ weapon
 abuse
 fraud
 explicit sexual terms
+
 Use safer alternatives where accurate, such as:
+
 dangerous
 harmful
 serious health concerns
@@ -507,22 +474,17 @@ criticised
 challenged
 disputed
 questioned
-Never use the word “fraud” anywhere in the script.
-Do not replace accurate language with misleading language.
-Rewrite the sentence so the factual meaning remains intact.
-Check the opening sixty seconds especially carefully.
+
+Never use the word “fraud” anywhere in the script. Do not replace accurate language with misleading language. Rewrite the sentence so the factual meaning remains intact. Check the opening sixty seconds especially carefully.
 
 FACTUAL AND LEGAL SAFETY
-Use only claims supported by Prompt 1.
-Do not use claims that Prompt 1 marked as:
-Unsupported.
-Outdated.
-Incorrect.
-Regionally mismatched.
-Legally unsafe.
-Unverified.
-Excluded.
+
+Use only claims supported by Prompt 1. Do not use claims Prompt 1 marked as unsupported, outdated, incorrect, regionally mismatched, legally unsafe, unverified, superseded by current evidence, prohibited from the proposed treatment under the Italian-origin brand negative-content protection rule, or otherwise prohibited.
+
+Do not use a US product formula, price, size, retailer, regulation, ingredient list, packaging detail, or audience reaction as evidence about the current UK product unless Prompt 1 specifically confirmed the UK equivalent.
+
 Use protective language where required:
+
 “Reportedly…”
 “Allegedly…”
 “According to…”
@@ -533,34 +495,39 @@ Use protective language where required:
 “Long-time buyers have complained…”
 “The exact details are unclear, but…”
 “The available evidence suggests…”
+
 Do not overuse protective language when a fact is directly confirmed.
+
 Reference actual sources naturally where useful.
+
 Examples:
+
 “In a twenty nineteen interview…”
 “According to the current ingredient list…”
 “In a statement released in…”
 “A report published by…”
-Do not include:
-Formal footnotes.
-URLs.
-Citation brackets.
-A source list.
+
+Do not include formal footnotes, URLs, citation brackets, or a source list.
+
 Do not say:
+
 “Research shows,” without identifying the research.
 “Experts say,” without identifying the source.
 “Everyone knows.”
 “The company clearly wanted to…”
 “They deliberately…” without proof.
 “This proves…” when the evidence only suggests something.
-Never invent quotations.
-Use real quotations accurately and briefly.
-Do not include material likely to create an avoidable cease-and-desist problem merely because it sounds dramatic.
+
+Never invent quotations. Use real quotations accurately and briefly. Do not include material likely to create an avoidable cease-and-desist problem merely because it sounds dramatic.
 
 NATURAL LANGUAGE RULES
-Write complete sentences.
-Do not use artificial fragments such as:
+
+Write complete sentences. Do not use artificial fragments such as:
+
 “Smart. Calculated. Ruthless.”
+
 Avoid common AI phrases and structures, including:
+
 “This isn’t just X, it’s Y.”
 “It’s not merely X. It’s Y.”
 “Carefully orchestrated.”
@@ -575,18 +542,19 @@ Avoid common AI phrases and structures, including:
 “Read that again.”
 “You heard that right.”
 “The truth may surprise you.”
-Do not use overwrought dramatic language.
-Do not use philosophical interpretations when they are unnecessary.
-Do not over-explain obvious ideas.
-Use specific details.
-State what happened before explaining what it means.
-Mix sentence lengths naturally.
+
+Do not use overwrought dramatic language. Do not use philosophical interpretations when unnecessary. Do not over-explain obvious ideas. Use specific details. State what happened before explaining what it means. Mix sentence lengths naturally.
 
 STRUCTURE GUIDELINES
+
 Use this structure:
+
 Opening hook.
-Full introduction of approximately 333 words.
-Like and Hype CTA.
+Required first sentence.
+Immediate heavy nostalgia grenade beginning in the second sentence or within the first two to four sentences.
+Hardest anonymous verified facts.
+Full introduction of approximately six hundred words, counted from the first word of the script through “And, let’s get into it.” inclusive.
+Like and Hype CTA inside the introduction.
 Exact sentence: “And, let’s get into it.”
 Countdown avoid list.
 Short better-product buying guidance.
@@ -596,80 +564,53 @@ Final Like, Hype, comment, and subscribe CTA.
 Final wording ending with “protect your plate.”
 
 AUTHENTICITY REQUIREMENTS
-Use where relevant:
-Real dates.
-Real product details.
-Real ingredient percentages.
-Real company statements.
-Real public reactions described in aggregate.
-Real UK supermarket context.
-Real historic changes.
-Accurate short quotations.
-Acknowledgement of uncertainty.
-Protective wording.
-Specific comparisons.
-Stay within the food-consumer niche.
-Do not force analogies involving:
-Marvel.
-Superheroes.
-Video games.
-Films.
-Celebrity culture.
-Internet memes.
-Unrelated American culture.
+
+Use where relevant real dates; real product details; real ingredient percentages; real company statements; real British public reactions expressed naturally in aggregate without revealing the source material; carefully separated US or international inspiration; real UK supermarket context; real historic changes; accurate short quotations; acknowledgement of uncertainty; protective wording; specific comparisons; updated verdicts; and legitimate differentiation from previous P.O.P coverage.
+
+Stay within the food-consumer niche. Do not force analogies involving Marvel, superheroes, video games, films, celebrity culture, internet memes, or unrelated American culture.
 
 FORBIDDEN OUTPUT ELEMENTS
-Do not include:
-Bullet points in the narration.
-Editorial numbered lists outside the spoken countdown.
-Subheaders.
-Chapter titles.
-Timestamps.
-Source lists.
-URLs.
-Footnotes.
-Citation brackets.
-Editing instructions.
-On-screen instructions.
-B-roll instructions.
-Camera instructions.
-Sound-effect instructions.
-Music instructions.
-Stage directions.
-Performance notes.
-Text in brackets such as “dramatic pause.”
-A synopsis.
-A research summary.
-A word-count report.
-A quality-control report.
-An explanation before the script.
-An explanation after the script.
-Excessive line breaks.
-Excessive paragraph breaks.
-Repetitive phrases.
-Repetitive structures.
-Unsupported health claims.
-Unsupported accusations.
-The word “fraud.”
+
+Do not include bullet points in the narration; editorial numbered lists outside the spoken countdown; subheaders; chapter titles; timestamps; source lists; URLs; footnotes; citation brackets; editing instructions; on-screen instructions; B-roll instructions; camera instructions; sound-effect instructions; music instructions; stage directions; performance notes; text in brackets such as “dramatic pause”; a synopsis; a research summary; a word-count report; a quality-control report; an explanation before the script; an explanation after the script; excessive line breaks; excessive paragraph breaks; repetitive phrases; repetitive structures; unsupported health claims; unsupported accusations; the word “fraud”; statements presenting US evidence as current UK evidence; references to copied YouTube comments, Reddit posts, Reddit comments, CSV files, comment exports, the research process, or the previous P.O.P comment section; criticism, negative portrayal, negative comparison, negative hook treatment, warning, accusation, or avoid-list placement of any Italian-origin brand; or self-referential explanations that the topic has been covered before.
 
 OUTPUT FORMAT
-Output only the complete final voice-over script.
-Do not place a title above it.
-Do not add an introductory note.
-Do not add a closing note after it.
-Use natural paragraph breaks, but keep the text clean and easy to paste into Word and TTS software.
+
+Output only the complete final voice-over script. Do not place a title above it. Do not add an introductory note. Do not add a closing note after it. Use natural paragraph breaks, but keep the text clean and easy to paste into Word and TTS software.
 
 SILENT FINAL QUALITY CHECK
+
 Before outputting the script, silently verify:
-Context
+
+Context:
 The entire Prompt 1 research package was reviewed.
 The raw title was followed.
 The correct product category was used.
 Fresh UK information was incorporated.
 Competitor insights were used only when helpful.
-Audience-comment sentiment was incorporated.
+Source-origin classifications were followed.
+Brand-origin classifications were followed.
+US-based material was not presented as UK factual evidence without independent UK verification.
+Audience sentiment from YouTube and Reddit was incorporated appropriately.
+UK and US sentiment were not confused.
 No research was requested again from the user.
-Product list
+Previous P.O.P material was treated as intentional historical context.
+The Repeat-Topic Differentiation Strategy was followed.
+The script does not explain that the topic was previously covered.
+
+Italian-origin brand protection:
+No Italian-origin brand appears in the avoid list.
+No Italian-origin brand is criticised, warned against, disparaged, negatively compared, assigned a negative or mixed-negative verdict, or presented as something viewers should avoid.
+No Italian-origin brand is connected to an anonymous negative hook fact, negative open loop, product failure, accusation, warning, or negative reveal.
+Italian-origin brands may appear in the actually good list, recommendations, positive alternatives, favourable comparisons, and positive hook reveals when supported by Prompt 1.
+Every Italian-origin brand included in the script is presented only positively or in a strictly neutral factual context.
+No Italian-origin brand is used as the losing, inferior, disappointing, or negatively framed side of a comparison.
+No mixed verdict accidentally begins with praise and then introduces criticism of an Italian-origin brand.
+No criticism from competitor scripts, previous P.O.P videos, comments, Reddit material, audience exports, or research notes was transferred into the final narration about an Italian-origin brand.
+If an Italian-origin brand required meaningful negative caveats to describe honestly, it was omitted rather than misleadingly praised.
+Any Italian-origin brand mistakenly placed in a negative position during Prompt 1 was replaced with an approved non-Italian alternative or omitted.
+No protected brand was added merely to fill the required product count without genuine positive evidence.
+
+Product list:
 Every selected avoid product appears.
 No selected product was silently removed.
 No unapproved product was added.
@@ -679,27 +620,64 @@ Number one appears last.
 The full-stop number format is correct.
 Every good product appears.
 Good products use “First,” “Second,” and so on.
-Introduction
+
+Repeat-topic freshness:
+The new hook is materially different from previous P.O.P coverage.
+The opening nostalgia concept is different.
+The countdown order does not mechanically repeat the older order.
+Repeated products have fresh angles, evidence, comparisons, or verdicts.
+The same distinctive section wording was not reused.
+The same sequence of revelations was not reused.
+Weaker repeated products were replaced where Prompt 1 required it.
+Current evidence overrides outdated previous verdicts.
+Any verified improvement is represented honestly.
+No product is criticised using a claim that is no longer supported by its current formula.
+The new video feels like a genuine new investigation rather than a rewritten copy.
+
+Introduction:
 The first words are “Today, we uncover.”
 The category is correct.
+A powerful nostalgia grenade begins immediately after the required opening sentence, normally in the second sentence and no later than the first two to four sentences.
+The nostalgia is specific to the product category and British audience.
+The nostalgia uses verified history or clearly framed repeated public memory.
+No false collective memory was invented.
+The opening does not become slow or purely sentimental.
+At least one hard fact or contradiction appears within approximately the first eighty to one hundred and twenty words.
 The strongest facts appear early.
 Brands linked to hook offences are not revealed too early.
 The Like and Hype CTA is included.
 The Hype CTA supports a consumer cause.
+The introduction is approximately six hundred words.
+The introduction is approximately five hundred and fifty to six hundred and fifty words unless a minor deviation is necessary for natural delivery.
+The introduction is counted from the first word of the script through “And, let’s get into it.” inclusive.
 The introduction ends exactly with “And, let’s get into it.”
 The opening sixty seconds avoid trigger words.
-Section quality
+
+Public sentiment:
+Repeated British audience sentiment appears naturally.
+The narrator sounds deeply informed, observant, passionate, and aligned with viewers.
+The script does not sound like a comment-summary video.
+The script does not mention YouTube comments, Reddit posts, Reddit comments, CSV files, copied comments, comment exports, the previous P.O.P comment section, or the process of researching audience reactions.
+No sentence says “one commenter,” “a viewer wrote,” “we came across,” “while researching,” or equivalent source-revealing language.
+Broad wording such as “countless people” is used only when Prompt 1 supports genuinely widespread repetition.
+Isolated anecdotes are not presented as collective opinion.
+Audience opinion is not used as proof of technical or legal claims.
+
+Section quality:
 Every product has a distinct main angle.
 Strong sections have enough room.
 Weak sections are not padded.
 Price is not mentioned immediately after the product name.
 Specific facts are used.
-Audience sentiment appears naturally.
-Nostalgia is evidence-based.
+British audience sentiment appears naturally.
+YouTube and Reddit material is not copied.
+American sentiment is not described as British sentiment.
+Nostalgia is evidence-based or responsibly framed.
 Marketing contrasts are fair.
 Sections do not use identical openings or endings.
 Transitions feel natural.
-Language
+
+Language:
 British English is used.
 Spoken contractions are used.
 “Maths” is used instead of “math.”
@@ -710,26 +688,34 @@ TTS substitutions are applied.
 Complete sentences are used.
 AI phrases are absent.
 Choppy dramatic fragments are absent.
-Safety
+
+Safety:
 The word “fraud” does not appear.
 Trigger words are avoided.
 Unsupported claims are absent.
-Comments are not treated as proof.
+YouTube comments, Reddit posts, and Reddit comments are not treated as proof.
 Health claims are limited appropriately.
 Protective wording is used where necessary.
 No old or foreign formula is described as the current UK formula.
+No American price, pack size, retailer, or regulation is presented as British.
+No outdated previous P.O.P verdict overrides current evidence.
 No avoidable defamatory claim appears.
-CTA and ending
+
+CTA and ending:
 Comment CTA appears.
 Subscribe CTA appears.
 Closing Like and Hype CTA appears.
-The viewer is asked what food P.O.P should cover next.
+The viewer is asked what food or product category P.O.P should cover next.
 The outro is short.
 The final words include “protect your plate.”
-Word count
-The script is within 200 words above or below the target.
+
+Word count:
+The script is within two hundred words above or below the target.
+The approximately six-hundred-word introduction is included inside the total target.
 The approximate word count was checked.
 No filler was added only to increase length.
 Strong researched material was not unnecessarily removed.
+
 If any requirement fails, silently revise the script before outputting it.
+
 Now write the complete final script using all relevant information established earlier in this same conversation.
