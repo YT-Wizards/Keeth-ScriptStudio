@@ -80,7 +80,9 @@ export default function SourcesStep({ project, onUpdate }) {
     onUpdate(updated);
   }
 
-  const totalComments = sources.youtube.reduce((sum, v) => sum + (v.commentCount || 0), 0);
+  const totalComments =
+    sources.youtube.reduce((sum, v) => sum + (v.commentCount || 0), 0) +
+    (sources.csv ?? []).reduce((sum, f) => sum + (f.commentCount || f.comments?.length || 0), 0);
 
   return (
     <div className="page">
@@ -160,6 +162,54 @@ export default function SourcesStep({ project, onUpdate }) {
       </section>
 
       <section className="card">
+        <h3>Comment CSV files (YouTube or Reddit exports)</h3>
+        <p className="muted">
+          Got comment exports as CSV files? Add them here — every comment inside counts toward the
+          100% comment analysis, same as YouTube comments. Column names are detected automatically.
+        </p>
+        <input
+          type="file"
+          accept=".csv,text/csv"
+          multiple
+          onChange={async (e) => {
+            setErrors([]);
+            const files = [...e.target.files];
+            e.target.value = '';
+            const added = [...(sources.csv ?? [])];
+            for (const file of files) {
+              setBusy(`Reading ${file.name} …`);
+              try {
+                const content = await file.text();
+                const parsed = await api.ingestCsv(content, file.name);
+                if (!parsed.commentCount) {
+                  addError(`${file.name}: no comments found in this file`);
+                } else {
+                  added.push(parsed);
+                }
+              } catch (err) {
+                addError(`${file.name}: ${err.message}`);
+              }
+            }
+            setBusy('');
+            await save({ csv: added });
+          }}
+        />
+        {(sources.csv ?? []).length > 0 && (
+          <ul className="sourceList">
+            {sources.csv.map((f, i) => (
+              <li key={`${f.filename}-${i}`}>
+                <strong>{f.filename}</strong>{' '}
+                <span className="muted">
+                  ({f.commentCount ?? f.comments.length} comments{f.note ? ` — ${f.note}` : ''})
+                </span>
+                <button className="link danger" onClick={() => removeSource('csv', i)}>remove</button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+
+      <section className="card">
         <h3>Latest UK news</h3>
         <div className="row">
           <input value={newsQuery} onChange={(e) => setNewsQuery(e.target.value)} />
@@ -211,8 +261,8 @@ export default function SourcesStep({ project, onUpdate }) {
       <section className="card summary">
         <strong>
           {sources.youtube.length} videos · {totalComments.toLocaleString()} comments collected ·{' '}
-          {sources.reddit.length} Reddit threads · {news.filter((n) => n.selected).length} news articles ·{' '}
-          {sources.manual.length} pasted items
+          {(sources.csv ?? []).length} CSV files · {sources.reddit.length} Reddit threads ·{' '}
+          {news.filter((n) => n.selected).length} news articles · {sources.manual.length} pasted items
         </strong>
         <button className="primary" onClick={proceed} disabled={!!busy}>
           Continue to research →

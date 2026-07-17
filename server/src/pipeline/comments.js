@@ -9,6 +9,11 @@ export function collectComments(project) {
       comments.push({ source: video.title || video.videoId, ...c });
     }
   }
+  for (const file of project.sources.csv ?? []) {
+    for (const c of file.comments ?? []) {
+      comments.push({ source: file.filename, ...c });
+    }
+  }
   return comments;
 }
 

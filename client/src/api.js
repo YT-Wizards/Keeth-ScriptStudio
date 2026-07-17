@@ -13,6 +13,8 @@ export const api = {
 
   ingestYoutube: (url) => request('/api/ingest/youtube', { method: 'POST', body: JSON.stringify({ url }) }),
   ingestReddit: (url) => request('/api/ingest/reddit', { method: 'POST', body: JSON.stringify({ url }) }),
+  ingestCsv: (content, filename) =>
+    request('/api/ingest/csv', { method: 'POST', body: JSON.stringify({ content, filename }) }),
   searchNews: (q) => request(`/api/ingest/news?q=${encodeURIComponent(q)}`),
 
   listProjects: () => request('/api/projects'),

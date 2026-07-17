@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { parseVideoId, fetchTranscript, fetchComments } from '../services/youtube.js';
 import { fetchRedditThread } from '../services/reddit.js';
 import { searchUkNews } from '../services/news.js';
+import { parseCommentCsv } from '../services/csv.js';
 
 const router = Router();
 
@@ -34,6 +35,20 @@ router.post(
     const { url } = req.body;
     if (!url) return res.status(400).json({ error: 'url is required' });
     res.json(await fetchRedditThread(url));
+  })
+);
+
+// comment CSV exports (YouTube or Reddit) — parsed into the comment pool so
+// they count toward the 100%-coverage analysis
+router.post(
+  '/csv',
+  wrap(async (req, res) => {
+    const { content, filename } = req.body;
+    if (typeof content !== 'string' || !content.trim()) {
+      return res.status(400).json({ error: 'content (the CSV file text) is required' });
+    }
+    const parsed = parseCommentCsv(content, filename || 'comments.csv');
+    res.json({ ...parsed, commentCount: parsed.comments.length });
   })
 );
 

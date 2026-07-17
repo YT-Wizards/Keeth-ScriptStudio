@@ -118,6 +118,12 @@ This page collects the raw material — the same things you used to gather by ha
 5. If a card says *"no transcript"* — that video simply has no captions; its comments are still used. Add a different video if you need more transcript material.
 6. The **remove** link on a card takes that video out.
 
+**Comment CSV files** (exports from YouTube or Reddit tools):
+
+1. In the "Comment CSV files" card, click the file picker and choose one or more `.csv` files.
+2. Each file appears with the number of comments found. Column names (Comment/body/text, Author, Likes/score…) are detected automatically, whatever tool made the export — even a plain text file with one comment per line works.
+3. Every comment from these files joins the comment pool and **counts toward the 100% comment analysis**, exactly like YouTube comments.
+
 **Reddit threads:**
 
 1. Open the Reddit thread in your browser.

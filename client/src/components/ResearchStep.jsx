@@ -5,10 +5,9 @@ export default function ResearchStep({ project, onUpdate }) {
   const [busy, setBusy] = useState('');
   const [error, setError] = useState('');
 
-  const totalComments = (project.sources.youtube ?? []).reduce(
-    (sum, v) => sum + (v.commentCount || 0),
-    0
-  );
+  const totalComments =
+    (project.sources.youtube ?? []).reduce((sum, v) => sum + (v.commentCount || 0), 0) +
+    (project.sources.csv ?? []).reduce((sum, f) => sum + (f.commentCount || f.comments?.length || 0), 0);
 
   async function run(stage, label) {
     setBusy(label);

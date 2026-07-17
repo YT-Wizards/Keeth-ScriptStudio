@@ -26,7 +26,7 @@ router.post('/', (req, res) => {
     title: title.trim(),
     targetWords,
     stage: 'sources', // sources → research → approval → script → export
-    sources: { youtube: [], reddit: [], news: [], manual: [] },
+    sources: { youtube: [], reddit: [], news: [], manual: [], csv: [] },
     createdAt: new Date().toISOString(),
   });
   res.status(201).json(project);
