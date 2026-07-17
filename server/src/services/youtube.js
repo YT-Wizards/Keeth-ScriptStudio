@@ -65,6 +65,22 @@ export async function fetchTranscript(videoId) {
   };
 }
 
+export async function searchVideos(query, { max = 10 } = {}) {
+  const yt = await client();
+  const res = await yt.search(query, { type: 'video' });
+  return (res.videos ?? [])
+    .slice(0, max)
+    .map((v) => ({
+      videoId: v.video_id ?? v.id,
+      title: textOf(v.title),
+      channel: textOf(v.author?.name),
+      views: textOf(v.short_view_count?.text ?? v.short_view_count ?? ''),
+      published: textOf(v.published?.text ?? v.published ?? ''),
+      duration: textOf(v.duration?.text ?? ''),
+    }))
+    .filter((v) => v.videoId);
+}
+
 export async function fetchComments(videoId, { maxComments = 5000, includeReplies = true } = {}) {
   const yt = await client();
   const comments = [];

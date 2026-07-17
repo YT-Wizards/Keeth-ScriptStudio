@@ -3,6 +3,8 @@ import { api } from '../api.js';
 
 export default function SourcesStep({ project, onUpdate }) {
   const [ytInput, setYtInput] = useState('');
+  const [ytQuery, setYtQuery] = useState(project.title);
+  const [ytResults, setYtResults] = useState([]);
   const [redditInput, setRedditInput] = useState('');
   const [manualText, setManualText] = useState('');
   const [newsQuery, setNewsQuery] = useState(project.title);
@@ -24,8 +26,8 @@ export default function SourcesStep({ project, onUpdate }) {
     setErrors((prev) => [...prev, message]);
   }
 
-  async function fetchYoutube() {
-    const urls = ytInput.split(/\s+/).filter(Boolean);
+  async function fetchYoutube(urlList) {
+    const urls = urlList ?? ytInput.split(/\s+/).filter(Boolean);
     if (!urls.length) return;
     setErrors([]);
     const fetched = [...sources.youtube];
@@ -39,8 +41,21 @@ export default function SourcesStep({ project, onUpdate }) {
       }
     }
     setBusy('');
-    setYtInput('');
+    if (!urlList) setYtInput('');
     await save({ youtube: fetched });
+  }
+
+  async function searchYoutube() {
+    setBusy('Searching YouTube…');
+    setErrors([]);
+    try {
+      const { items } = await api.searchYoutube(ytQuery);
+      const already = new Set(sources.youtube.map((v) => v.videoId));
+      setYtResults(items.filter((v) => !already.has(v.videoId)));
+    } catch (e) {
+      addError(e.message);
+    }
+    setBusy('');
   }
 
   async function addRedditPaste() {
@@ -92,13 +107,49 @@ export default function SourcesStep({ project, onUpdate }) {
           Transcripts and every comment are pulled automatically. US-based videos are fine when there's
           nothing for the UK — they'll be marked as inspiration-only so UK/US products never get mixed up.
         </p>
+        <div className="row">
+          <input
+            value={ytQuery}
+            onChange={(e) => setYtQuery(e.target.value)}
+            placeholder="e.g. worst biscuits UK supermarket"
+          />
+          <button onClick={searchYoutube} disabled={!!busy}>Find competitor videos</button>
+        </div>
+        {ytResults.length > 0 && (
+          <ul className="sourceList">
+            {ytResults.map((v) => (
+              <li key={v.videoId}>
+                <div className="approveRow">
+                  <span>
+                    <strong>{v.title}</strong>{' '}
+                    <span className="muted">
+                      — {v.channel}
+                      {v.views ? ` · ${v.views}` : ''}
+                      {v.published ? ` · ${v.published}` : ''}
+                    </span>
+                  </span>
+                  <button
+                    disabled={!!busy}
+                    onClick={async () => {
+                      await fetchYoutube([`https://www.youtube.com/watch?v=${v.videoId}`]);
+                      setYtResults((rs) => rs.filter((x) => x.videoId !== v.videoId));
+                    }}
+                  >
+                    Add
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
+        <p className="muted">…or paste links yourself:</p>
         <textarea
           rows="3"
           placeholder="Paste one or more YouTube links, separated by spaces or new lines"
           value={ytInput}
           onChange={(e) => setYtInput(e.target.value)}
         />
-        <button onClick={fetchYoutube} disabled={!!busy}>Fetch transcripts & comments</button>
+        <button onClick={() => fetchYoutube()} disabled={!!busy}>Fetch transcripts & comments</button>
 
         {sources.youtube.length > 0 && (
           <ul className="sourceList">

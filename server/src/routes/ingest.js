@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { parseVideoId, fetchTranscript, fetchComments } from '../services/youtube.js';
+import { parseVideoId, fetchTranscript, fetchComments, searchVideos } from '../services/youtube.js';
 import { fetchRedditThread } from '../services/reddit.js';
 import { searchUkNews } from '../services/news.js';
 import { parseCommentCsv } from '../services/csv.js';
@@ -26,6 +26,15 @@ router.post(
       }
     }
     res.json({ ...video, ...comments, commentsError, sourceUrl: url });
+  })
+);
+
+router.get(
+  '/youtube-search',
+  wrap(async (req, res) => {
+    const { q } = req.query;
+    if (!q) return res.status(400).json({ error: 'q is required' });
+    res.json({ query: q, items: await searchVideos(q) });
   })
 );
 

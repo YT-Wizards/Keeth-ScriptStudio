@@ -16,6 +16,7 @@ export const api = {
   ingestCsv: (content, filename) =>
     request('/api/ingest/csv', { method: 'POST', body: JSON.stringify({ content, filename }) }),
   searchNews: (q) => request(`/api/ingest/news?q=${encodeURIComponent(q)}`),
+  searchYoutube: (q) => request(`/api/ingest/youtube-search?q=${encodeURIComponent(q)}`),
 
   listProjects: () => request('/api/projects'),
   createProject: (title, targetWords) =>
