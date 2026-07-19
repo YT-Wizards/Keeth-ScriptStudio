@@ -46,6 +46,16 @@ export default function SettingsPage() {
               onChange={(e) => setSettings({ ...settings, anthropicApiKey: e.target.value })}
             />
           </label>
+          <label>
+            Claude model (fact-check & scriptwriting)
+            <select
+              value={settings.claudeModel || 'claude-opus-4-8'}
+              onChange={(e) => setSettings({ ...settings, claudeModel: e.target.value })}
+            >
+              <option value="claude-opus-4-8">Opus 4.8 — best quality (recommended)</option>
+              <option value="claude-sonnet-5">Sonnet 5 — cheaper, slightly below Opus</option>
+            </select>
+          </label>
           <button type="submit">Save keys</button>
         </form>
       </section>

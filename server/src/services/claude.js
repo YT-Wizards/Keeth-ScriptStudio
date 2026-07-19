@@ -1,7 +1,13 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { getSettings } from '../store.js';
 
-const MODEL = 'claude-opus-4-8';
+const DEFAULT_MODEL = 'claude-opus-4-8';
+const ALLOWED_MODELS = new Set(['claude-opus-4-8', 'claude-sonnet-5']);
+
+function model() {
+  const { claudeModel } = getSettings();
+  return ALLOWED_MODELS.has(claudeModel) ? claudeModel : DEFAULT_MODEL;
+}
 
 function client() {
   const { anthropicApiKey } = getSettings();
@@ -10,6 +16,7 @@ function client() {
 }
 
 export async function claudeGenerate({ system, prompt, maxTokens = 64000, effort = 'high' }) {
+  const MODEL = model();
   const stream = client().messages.stream({
     model: MODEL,
     max_tokens: maxTokens,
@@ -28,7 +35,7 @@ export async function claudeGenerate({ system, prompt, maxTokens = 64000, effort
 
 export async function claudeExtractJson({ system, prompt, schema, maxTokens = 16000 }) {
   const response = await client().messages.create({
-    model: MODEL,
+    model: model(),
     max_tokens: maxTokens,
     thinking: { type: 'adaptive' },
     ...(system ? { system } : {}),
