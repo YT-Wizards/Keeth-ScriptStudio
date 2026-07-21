@@ -10,6 +10,14 @@ function client() {
   return innertubePromise;
 }
 
+// YouTube occasionally serves an experimental page layout that breaks the
+// parser (e.g. "Cannot read properties of undefined (reading 'endpoint')") —
+// and the broken state sticks to the session. Dropping the cached session and
+// retrying on a fresh one recovers it.
+function resetClient() {
+  innertubePromise = null;
+}
+
 export function parseVideoId(input) {
   const trimmed = input.trim();
   if (/^[\w-]{11}$/.test(trimmed)) return trimmed;
@@ -110,7 +118,22 @@ export async function searchVideos(query, { max = 20 } = {}) {
     .sort((a, b) => b.viewsNum - a.viewsNum);
 }
 
-export async function fetchComments(videoId, { maxComments = 5000, includeReplies = true } = {}) {
+export async function fetchComments(videoId, options = {}) {
+  try {
+    return await fetchCommentsOnce(videoId, options);
+  } catch {
+    resetClient();
+    try {
+      return await fetchCommentsOnce(videoId, options);
+    } catch {
+      // different sort order sometimes parses when TOP_COMMENTS doesn't
+      resetClient();
+      return await fetchCommentsOnce(videoId, { ...options, sort: 'NEWEST_FIRST' });
+    }
+  }
+}
+
+async function fetchCommentsOnce(videoId, { maxComments = 5000, includeReplies = true, sort = 'TOP_COMMENTS' } = {}) {
   const yt = await client();
   const comments = [];
   let capped = false;
@@ -125,7 +148,7 @@ export async function fetchComments(videoId, { maxComments = 5000, includeReplie
     });
   }
 
-  let section = await yt.getComments(videoId, 'TOP_COMMENTS');
+  let section = await yt.getComments(videoId, sort);
   while (true) {
     for (const thread of section.contents ?? []) {
       push(thread.comment);
