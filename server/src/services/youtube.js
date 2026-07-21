@@ -65,20 +65,49 @@ export async function fetchTranscript(videoId) {
   };
 }
 
-export async function searchVideos(query, { max = 10 } = {}) {
+function parseViews(text) {
+  const m = String(text).replace(/,/g, '').match(/([\d.]+)\s*([KMB])?/i);
+  if (!m) return 0;
+  const mult = { K: 1e3, M: 1e6, B: 1e9 }[m[2]?.toUpperCase()] ?? 1;
+  return Math.round(parseFloat(m[1]) * mult);
+}
+
+function parseAgeDays(text) {
+  const m = String(text).match(/(\d+)\s*(minute|hour|day|week|month|year)/i);
+  if (!m) return 99999;
+  const per = { minute: 1 / 1440, hour: 1 / 24, day: 1, week: 7, month: 30, year: 365 }[
+    m[2].toLowerCase()
+  ];
+  return Math.round(Number(m[1]) * per);
+}
+
+// deliberately rough — the client asked for a helper, not perfect detection
+const UK_RE = /\buk\b|british|britain|england|scotland|wales|🇬🇧/i;
+
+export async function searchVideos(query, { max = 20 } = {}) {
   const yt = await client();
   const res = await yt.search(query, { type: 'video' });
   return (res.videos ?? [])
     .slice(0, max)
-    .map((v) => ({
-      videoId: v.video_id ?? v.id,
-      title: textOf(v.title),
-      channel: textOf(v.author?.name),
-      views: textOf(v.short_view_count?.text ?? v.short_view_count ?? ''),
-      published: textOf(v.published?.text ?? v.published ?? ''),
-      duration: textOf(v.duration?.text ?? ''),
-    }))
-    .filter((v) => v.videoId);
+    .map((v) => {
+      const title = textOf(v.title);
+      const channel = textOf(v.author?.name);
+      const views = textOf(v.short_view_count?.text ?? v.short_view_count ?? '');
+      const published = textOf(v.published?.text ?? v.published ?? '');
+      return {
+        videoId: v.video_id ?? v.id,
+        title,
+        channel,
+        views,
+        published,
+        duration: textOf(v.duration?.text ?? ''),
+        viewsNum: parseViews(views),
+        ageDays: parseAgeDays(published),
+        looksUk: UK_RE.test(`${title} ${channel}`),
+      };
+    })
+    .filter((v) => v.videoId)
+    .sort((a, b) => b.viewsNum - a.viewsNum);
 }
 
 export async function fetchComments(videoId, { maxComments = 5000, includeReplies = true } = {}) {

@@ -5,6 +5,8 @@ export default function SourcesStep({ project, onUpdate }) {
   const [ytInput, setYtInput] = useState('');
   const [ytQuery, setYtQuery] = useState(project.title);
   const [ytResults, setYtResults] = useState([]);
+  const [ytSort, setYtSort] = useState('views'); // views | newest
+  const [ytRegion, setYtRegion] = useState('all'); // all | uk | nonuk
   const [redditInput, setRedditInput] = useState('');
   const [manualText, setManualText] = useState('');
   const [newsQuery, setNewsQuery] = useState(project.title);
@@ -116,8 +118,28 @@ export default function SourcesStep({ project, onUpdate }) {
           <button onClick={searchYoutube} disabled={!!busy}>Find competitor videos</button>
         </div>
         {ytResults.length > 0 && (
+          <div className="row filterRow">
+            <select value={ytSort} onChange={(e) => setYtSort(e.target.value)}>
+              <option value="views">Most viewed first</option>
+              <option value="newest">Newest first</option>
+            </select>
+            <button className={ytRegion === 'all' ? 'active' : ''} onClick={() => setYtRegion('all')}>
+              All
+            </button>
+            <button className={ytRegion === 'uk' ? 'active' : ''} onClick={() => setYtRegion('uk')}>
+              UK videos
+            </button>
+            <button className={ytRegion === 'nonuk' ? 'active' : ''} onClick={() => setYtRegion('nonuk')}>
+              Non-UK
+            </button>
+          </div>
+        )}
+        {ytResults.length > 0 && (
           <ul className="sourceList">
-            {ytResults.map((v) => (
+            {ytResults
+              .filter((v) => (ytRegion === 'all' ? true : ytRegion === 'uk' ? v.looksUk : !v.looksUk))
+              .sort((a, b) => (ytSort === 'views' ? b.viewsNum - a.viewsNum : a.ageDays - b.ageDays))
+              .map((v) => (
               <li key={v.videoId}>
                 <div className="approveRow">
                   <span>
@@ -126,6 +148,7 @@ export default function SourcesStep({ project, onUpdate }) {
                       — {v.channel}
                       {v.views ? ` · ${v.views}` : ''}
                       {v.published ? ` · ${v.published}` : ''}
+                      {v.looksUk ? ' · 🇬🇧 UK' : ''}
                     </span>
                   </span>
                   <button

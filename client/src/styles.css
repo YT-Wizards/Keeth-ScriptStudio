@@ -73,6 +73,8 @@ label.inline input { width: auto; margin: 0; }
 .newProject button { align-self: flex-start; }
 
 .row { display: flex; gap: 8px; align-items: flex-start; }
+.filterRow { align-items: center; margin-top: 10px; }
+.filterRow select { margin: 0; width: auto; }
 .row input { flex: 1; }
 .row button { white-space: nowrap; }
 
