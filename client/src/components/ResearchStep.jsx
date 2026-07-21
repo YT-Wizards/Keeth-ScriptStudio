@@ -36,7 +36,9 @@ export default function ResearchStep({ project, onUpdate }) {
         {ca && (
           <p className="ok">
             ✔ {ca.analyzedComments.toLocaleString()} of {ca.totalComments.toLocaleString()} comments
-            analysed (100% coverage, {ca.batches.length} batch{ca.batches.length === 1 ? '' : 'es'})
+            analysed, most-liked weighted first ({ca.batches.length} batch
+            {ca.batches.length === 1 ? '' : 'es'}
+            {ca.excludedDownvoted ? `, ${ca.excludedDownvoted} downvoted excluded` : ''})
           </p>
         )}
         {ca?.summary && (
